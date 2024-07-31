@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0e4ddce5-5c0a-41d1-ab67-e7bad6d98362")
+	(paper "A4")
+	(title_block
+		(title "Master Sheet")
+		(date "2024-04-11")
+		(rev "1")
+		(company "Sentinels Robotics")
+		(comment 1 "Created By: Vincent Cayadi")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30.48 88.9)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cf944e8-0c04-4f5c-85de-deb3735ffdd3")
+		(property "Sheetname" "Motor Driver"
+			(at 30.48 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motordriver.kicad_sch"
+			(at 30.48 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 88.9)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "721a1ded-9f35-4b1d-b3f2-9ec7d8055788")
+		(property "Sheetname" "Power"
+			(at 195.58 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 195.58 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 88.9)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7eb94f30-d7c3-42f0-a677-4d3b7a4adfd0")
+		(property "Sheetname" "Miscellaneous"
+			(at 236.22 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "miscellaneous.kicad_sch"
+			(at 236.22 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 88.9)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a63fbca6-593f-4a72-9162-84fa58a2299a")
+		(property "Sheetname" "Light Ring"
+			(at 154.94 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lightring.kicad_sch"
+			(at 154.94 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 88.9)
+		(size 35.56 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db28a344-f5d1-410a-891a-2aeea8fe8f70")
+		(property "Sheetname" "Connections"
+			(at 73.66 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connections.kicad_sch"
+			(at 73.66 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 88.9)
+		(size 34.29 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f60e712f-1e16-44e9-aa12-ae1d10556a78")
+		(property "Sheetname" "Boost Switch"
+			(at 115.57 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost-switch.kicad_sch"
+			(at 115.57 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "l1"
+				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
