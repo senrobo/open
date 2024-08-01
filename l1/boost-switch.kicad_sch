@@ -3700,10 +3700,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cbc6a301-b5f7-4511-93c3-29c49a385a1c")
+			(uuid "cbc6a301-b5f7-4511-93c3-29c49a385a1d")
 		)
 		(pin "1"
-			(uuid "4b735229-6839-4d12-85b4-777a4eb40bd9")
+			(uuid "4b735229-6839-4d12-85b4-777a4eb40bda")
 		)
 		(instances
 			(project ""
