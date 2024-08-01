@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Master Sheet")
-		(date "2024-04-11")
+		(date "2024-08-01")
 		(rev "1")
 		(company "Sentinels Robotics")
 		(comment 1 "Created By: Vincent Cayadi")

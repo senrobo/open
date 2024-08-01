@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Muscellaneous")
+		(date "2024-08-01")
 		(company "Sentinels Robotics")
 		(comment 1 "Created By: Vincent Cayadi")
 	)
