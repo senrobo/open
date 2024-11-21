@@ -725,6 +725,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "I2C2_SCL" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
 					(alternate "" input line)
@@ -3146,6 +3147,191 @@
 				)
 			)
 		)
+		(symbol "vincent:m1n"
+			(pin_names
+				(offset 2.54)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "m1n_1_1"
+				(pin input line
+					(at 7.62 2.54 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec6e014-4188-49d8-b695-3aeeb0b65d72")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 173.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2448e087-0ddb-4bf4-90f9-dd69920038e6")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d94af8-1936-45ad-a4ca-70b695123453")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bc535c-19ba-4299-956f-ac16e7608443")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94e46e4-ff10-4d37-8b45-02eab816b942")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3c1234-7ec6-4e20-82a4-5bff66a2dee9")
 	)
 	(symbol
 		(lib_id "vincent:STM32F446RE")
@@ -3157,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d171b6e-bef0-456a-9d79-f882a7072b9f")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 208.28 60.96 0)
 			(effects
 				(font
@@ -3395,7 +3581,7 @@
 		(instances
 			(project ""
 				(path "/6130ea90-01d1-434c-a614-117c329ecbc2"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1b4455-47ec-4d55-b4bb-e80455b8ab79")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -3668,7 +3854,7 @@
 		(instances
 			(project ""
 				(path "/6130ea90-01d1-434c-a614-117c329ecbc2"
-					(reference "U?")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -3684,7 +3870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a40e53e-796b-448c-acf3-561c87572a72")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 93.98 59.69 0)
 			(effects
 				(font
@@ -3922,7 +4108,83 @@
 		(instances
 			(project ""
 				(path "/6130ea90-01d1-434c-a614-117c329ecbc2"
-					(reference "U?")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vincent:m1n")
+		(at 166.37 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9274c6d6-9306-4ee1-b5c9-f5ca327ac053")
+		(property "Reference" "U3"
+			(at 177.8 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:m1n"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "396f6e98-646c-4e87-a3e6-ff0a3ced8daf")
+		)
+		(pin "25"
+			(uuid "cb17a4c8-78dd-4309-9057-92dcd2b85216")
+		)
+		(pin "27"
+			(uuid "5473c8e6-6d3f-44c4-8c52-1ea82e72b4e8")
+		)
+		(pin "16"
+			(uuid "73bd6363-bba8-4f70-b102-f60ffa3835d1")
+		)
+		(instances
+			(project ""
+				(path "/6130ea90-01d1-434c-a614-117c329ecbc2"
+					(reference "U3")
 					(unit 1)
 				)
 			)
