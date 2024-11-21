@@ -3242,7 +3242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2c53d5-d85a-4d08-93a8-f7ee5ca3dc44")
-		(property "Reference" "J?"
+		(property "Reference" "J6"
 			(at 73.66 186.6899 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "107ce5f9-f906-4044-9ebf-9a92d3fe95e5")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 237.49 127 0)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 236.22 135.89 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3663,7 +3663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f833cd5-0243-4945-b236-7c3a68b0e092")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 146.05 69.8499 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3799,7 +3799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f7aedc3-ca04-483a-9f50-154b99a6e95e")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 73.66 69.8499 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d25ec5-82b9-485b-a55f-f7a5a1763886")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 133.35 60.0709 0)
 			(effects
 				(font
@@ -3923,7 +3923,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "624b1b58-f925-4f93-be2c-374e7c3bd0da")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 267.97 128.27 0)
 			(effects
 				(font
@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -4076,7 +4076,7 @@
 		(instances
 			(project ""
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4092,7 +4092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "709cfb2e-73f4-4204-adf0-260954e6cf70")
-		(property "Reference" "IC?"
+		(property "Reference" "IC1"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "IC?")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71016e3b-656c-439e-96c0-6633dfca1aec")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 205.74 110.8709 0)
 			(effects
 				(font
@@ -4287,7 +4287,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7756dc03-51fa-48e6-b3a8-6adb23d289af")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 73.66 179.0699 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6742fe-7ccc-4d55-8996-f89d6c287b07")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 35.56 186.6899 0)
 			(effects
 				(font
@@ -4493,7 +4493,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4710,7 +4710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8847d8da-47c2-47c0-8b1d-5f3ad57918b3")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 35.56 179.0699 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cb92194-bf12-40ef-942c-8b738442b8f5")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 133.35 110.8709 0)
 			(effects
 				(font
@@ -4900,7 +4900,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4916,7 +4916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975ccf6c-f264-4e7a-abf9-058ce88e9ad4")
-		(property "Reference" "IC?"
+		(property "Reference" "IC2"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -5041,7 +5041,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "IC?")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c77066c-eb23-48c5-8b26-b75872fdea8a")
-		(property "Reference" "IC?"
+		(property "Reference" "IC4"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -5182,7 +5182,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "IC?")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5198,7 +5198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ccf11cb-5744-4c88-98b0-e25e50ff2087")
-		(property "Reference" "IC?"
+		(property "Reference" "IC3"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "IC?")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e01e243b-a7ac-47f9-a297-60dff4e7c97e")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 146.05 120.6499 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5944,7 +5944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91a82f6-7fbe-426f-bd73-e3b55688f3c2")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 73.66 120.6499 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2720f6-6b0a-4f9f-bf8d-84b4ff2a82d0")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 205.74 60.0709 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 		(instances
 			(project "motorDriver"
 				(path "/c171d2a5-c358-4a81-92c2-20526bbbc52c"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
