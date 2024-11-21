@@ -507,7 +507,8 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 200,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -626,10 +627,6 @@
       "Light Ring"
     ],
     [
-      "721a1ded-9f35-4b1d-b3f2-9ec7d8055788",
-      "Power"
-    ],
-    [
       "7eb94f30-d7c3-42f0-a677-4d3b7a4adfd0",
       "Miscellaneous"
     ],
@@ -638,16 +635,8 @@
       "STM32"
     ],
     [
-      "f60e712f-1e16-44e9-aa12-ae1d10556a78",
-      "Boost Switch"
-    ],
-    [
       "1b49575a-e154-4564-9df5-7b35e341bde9",
       "MUX"
-    ],
-    [
-      "3cf944e8-0c04-4f5c-85de-deb3735ffdd3",
-      "Motor Driver"
     ],
     [
       "6da727bb-53e9-4f90-ad87-a0bcbe81e2aa",

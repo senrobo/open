@@ -1144,82 +1144,6 @@
 		)
 	)
 	(sheet
-		(at 30.48 88.9)
-		(size 35.56 33.02)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3cf944e8-0c04-4f5c-85de-deb3735ffdd3")
-		(property "Sheetname" "Motor Driver"
-			(at 30.48 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motordriver.kicad_sch"
-			(at 30.48 122.5046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "l1"
-				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 195.58 88.9)
-		(size 35.56 33.02)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "721a1ded-9f35-4b1d-b3f2-9ec7d8055788")
-		(property "Sheetname" "Power"
-			(at 195.58 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 195.58 122.5046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "l1"
-				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 236.22 88.9)
 		(size 35.56 33.02)
 		(fields_autoplaced yes)
@@ -1329,44 +1253,6 @@
 			(project "l1"
 				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 115.57 88.9)
-		(size 34.29 33.02)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f60e712f-1e16-44e9-aa12-ae1d10556a78")
-		(property "Sheetname" "Boost Switch"
-			(at 115.57 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "boost-switch.kicad_sch"
-			(at 115.57 122.5046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "l1"
-				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362"
-					(page "9")
 				)
 			)
 		)

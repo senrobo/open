@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -491,7 +492,8 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -590,8 +592,20 @@
   },
   "sheets": [
     [
-      "d65f20ed-2841-484c-9395-70974a4cd101",
+      "1b1408da-cc6a-469f-a506-e797247b3ac8",
       "Root"
+    ],
+    [
+      "26fa24e2-dd9a-49a9-9a0e-c48ef9d66c8d",
+      "connectors"
+    ],
+    [
+      "65597bc7-5aaa-4f27-9286-e75eee7edae8",
+      "IMU"
+    ],
+    [
+      "9673eddf-80ee-4908-b21e-80531a02ef2e",
+      "STM32F4"
     ]
   ],
   "text_variables": {}
