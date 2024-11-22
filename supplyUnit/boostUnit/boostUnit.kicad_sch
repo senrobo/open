@@ -2434,7 +2434,7 @@
 				)
 			)
 		)
-		(symbol "vincent:IPD050N10N5ATMA1"
+		(symbol "vincent:AON6354"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2442,45 +2442,43 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
+			(property "Reference" "Q?"
+				(at 11.43 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Value" "IPD050N10N5ATMA1"
-				(at 11.43 1.27 0)
+			(property "Value" "ISC011N06LM5ATMA1"
+				(at 11.43 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 11.43 -98.73 0)
+			(property "Footprint" "Library:8-DFN (5x6)"
+				(at 7.62 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD050N10N5-DS-v02_01-EN.pdf?fileId=5546d4625b3ca4ec015b615bb7536713"
-				(at 11.43 -198.73 0)
+			(property "Datasheet" "https://www.mouser.sg/datasheet/2/196/Infineon_ISC011N06LM5_DataSheet_v02_02_EN-3363456.pdf"
+				(at 7.62 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "INFINEON - IPD050N10N5ATMA1 - Power MOSFET, N Channel, 100 V, 80 A, 0.0043 ohm, TO-252 (DPAK), Surface Mount"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2489,57 +2487,16 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.41"
-				(at 11.43 -398.73 0)
+			(property "ki_keywords" "MOSFET"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "726-IPD050N10N5ATMA1"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD050N10N5ATMA1?qs=u4fy%2FsgLU9Pgz4QwaVUqjg%3D%3D"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IPD050N10N5ATMA1"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "IPD050N10N5ATMA1_0_1"
+			(symbol "AON6354_0_1"
 				(polyline
 					(pts
 						(xy 5.334 0) (xy 2.54 0)
@@ -2706,7 +2663,61 @@
 					)
 				)
 			)
-			(symbol "IPD050N10N5ATMA1_1_1"
+			(symbol "AON6354_1_1"
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
@@ -2717,7 +2728,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2735,7 +2746,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2744,16 +2755,70 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(at 7.62 5.08 270)
+					(length 2.54) hide
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7322,6 +7387,97 @@
 		)
 	)
 	(symbol
+		(lib_id "vincent:AON6354")
+		(at 72.39 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2d2694-4f4b-47b1-b112-f6a11f30f1e6")
+		(property "Reference" "BSQ1"
+			(at 83.82 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISC011N06LM5ATMA1"
+			(at 83.82 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:8-DFN (5x6)"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sg/datasheet/2/196/Infineon_ISC011N06LM5_DataSheet_v02_02_EN-3363456.pdf"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "22d2b3a6-7acb-4824-8297-be09ea3e3778")
+		)
+		(pin "8"
+			(uuid "308a19cf-c245-4c28-bbc7-40b55a9d3403")
+		)
+		(pin "9"
+			(uuid "85cae9fd-a7cc-4f6a-8935-3b209501aad1")
+		)
+		(pin "1"
+			(uuid "e8b3140e-172d-425f-992e-7b0d1f6ec998")
+		)
+		(pin "3"
+			(uuid "2dd4eea5-f1b2-42f3-8c3a-3db8718435ef")
+		)
+		(pin "2"
+			(uuid "dc7c50ac-846c-408b-bb23-b80a9e1ae8e1")
+		)
+		(pin "5"
+			(uuid "b76ae737-98e9-461c-b7fb-74b6576ca8ab")
+		)
+		(pin "4"
+			(uuid "16e3a6fa-5454-420f-95f0-836301cd762e")
+		)
+		(pin "6"
+			(uuid "77b318c5-64f9-4268-a8df-5478e8d24582")
+		)
+		(instances
+			(project ""
+				(path "/697a38d4-3409-462e-879c-d6eee2cce560"
+					(reference "BSQ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 226.06 34.29 0)
 		(unit 1)
@@ -7382,140 +7538,6 @@
 			(project "boostUnit"
 				(path "/697a38d4-3409-462e-879c-d6eee2cce560"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "vincent:IPD050N10N5ATMA1")
-		(at 72.39 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4794920-08c3-40cf-90a0-557d94ee8533")
-		(property "Reference" "BSQ1"
-			(at 83.82 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLB3036PbF"
-			(at 83.82 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2024l1:TO-220-3_Vertical"
-			(at 83.82 164.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD050N10N5-DS-v02_01-EN.pdf?fileId=5546d4625b3ca4ec015b615bb7536713"
-			(at 83.82 264.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C13678"
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPD050N10N5ATMA1"
-			(at 83.82 564.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 83.82 764.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPD050N10N5ATMA1"
-			(at 83.82 864.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.41"
-			(at 83.82 464.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD050N10N5ATMA1?qs=u4fy%2FsgLU9Pgz4QwaVUqjg%3D%3D"
-			(at 83.82 664.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fec4dddc-d64e-465e-a3dc-d783cf6ea144")
-		)
-		(pin "2"
-			(uuid "02bab8df-1165-4851-ab2f-6fe8984502c0")
-		)
-		(pin "3"
-			(uuid "411318c6-3d76-4e15-b4be-3b0249061f3b")
-		)
-		(instances
-			(project "boostUnit"
-				(path "/697a38d4-3409-462e-879c-d6eee2cce560"
-					(reference "BSQ1")
 					(unit 1)
 				)
 			)
