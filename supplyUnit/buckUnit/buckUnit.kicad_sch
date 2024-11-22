@@ -2069,138 +2069,6 @@
 				)
 			)
 		)
-		(symbol "power:GNDREF"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDREF"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDREF_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDREF_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 101.6 33.02)
@@ -3316,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d80b21-6786-4f99-8248-cf64684a5278")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 105.41 130.81 0)
 			(effects
 				(font
@@ -3366,9 +3234,9 @@
 			(uuid "e1e3d388-c115-4b91-857e-7d497f69ae07")
 		)
 		(instances
-			(project ""
+			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0541e54b-7e3e-4c17-8b04-18181ec58c4e")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -3400,7 +3268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:TI_SO-PowerPAD-8"
+		(property "Footprint" "Buck:TI_SO-PowerPAD-8"
 			(at 52.07 46.99 0)
 			(effects
 				(font
@@ -3468,7 +3336,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3485,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ec3c06-8785-4171-9e42-e28b9a3b13a6")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 114.3 147.32 0)
 			(effects
 				(font
@@ -3537,7 +3405,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23fbff02-3f8a-4740-ae35-a1aa47be54f8")
-		(property "Reference" "L?"
+		(property "Reference" "L2"
 			(at 93.98 72.39 90)
 			(effects
 				(font
@@ -3634,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:0630 One Piece Inductor"
+		(property "Footprint" "Buck:0630 One Piece Inductor"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -3679,7 +3547,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3695,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2462347b-7ba3-49f6-95e8-7fa7a8e5766c")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 88.9 37.1475 90)
 			(effects
 				(font
@@ -3713,7 +3581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "Buck:SMA (DO-214AC)"
 			(at 81.915 38.1 0)
 			(effects
 				(font
@@ -3758,7 +3626,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0a5d6e-38e2-4487-b0e0-5100d1679c7c")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 34.29 129.54 0)
 			(effects
 				(font
@@ -3838,7 +3706,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f2512e6-dc56-41f2-8226-3ee37c73bee7")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 93.98 26.67 90)
 			(effects
 				(font
@@ -3869,7 +3737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:0630 One Piece Inductor"
+		(property "Footprint" "Buck:0630 One Piece Inductor"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -3914,7 +3782,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4053,72 +3921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 74.93 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4676d671-c20e-411e-8667-f67d3719d828")
-		(property "Reference" "#PWR019"
-			(at 74.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 74.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aa24aeb-8239-46ca-9742-f5647af1c947")
-		)
-		(instances
-			(project "buckUnit"
-				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 43.18 0)
 		(unit 1)
@@ -4185,72 +3987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 57.15 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cf0dd54-574b-426e-8a5c-bb7da27f0df0")
-		(property "Reference" "#PWR018"
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 57.15 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b694539-d307-4b83-a124-bffd3d3e59a5")
-		)
-		(instances
-			(project "buckUnit"
-				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 27.94 41.91 0)
 		(unit 1)
@@ -4259,7 +3995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "519ad0f2-f794-4a42-8668-8ee44ea993d3")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 31.75 41.275 0)
 			(effects
 				(font
@@ -4277,7 +4013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 28.9052 45.72 0)
 			(effects
 				(font
@@ -4322,7 +4058,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4338,7 +4074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d1d711-6e43-4ac2-af6d-8c823eb138e8")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 130.81 83.185 0)
 			(effects
 				(font
@@ -4356,7 +4092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Buck:res0603"
 			(at 126.492 83.82 90)
 			(effects
 				(font
@@ -4401,7 +4137,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4417,7 +4153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533152c1-5efd-46f2-a045-b176dd1da0c6")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 105.41 36.576 0)
 			(effects
 				(font
@@ -4435,7 +4171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:EIA-7343-D"
+		(property "Footprint" "Buck:EIA-7343-D"
 			(at 102.5652 41.91 0)
 			(effects
 				(font
@@ -4480,7 +4216,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "561095a3-e4f8-42fc-81a8-75a60eed4d2e")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 50.8 72.39 0)
 			(effects
 				(font
@@ -4578,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:TI_SO-PowerPAD-8"
+		(property "Footprint" "Buck:TI_SO-PowerPAD-8"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -4646,7 +4382,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8b4652-ce15-42b4-8615-e797c0457ddd")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 88.9 82.8675 90)
 			(effects
 				(font
@@ -4746,7 +4482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "Buck:SMA (DO-214AC)"
 			(at 81.915 83.82 0)
 			(effects
 				(font
@@ -4791,7 +4527,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d5424a-36e2-4b18-9135-59f8dcb08e2f")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 119.38 37.465 0)
 			(effects
 				(font
@@ -4825,7 +4561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 116.5352 41.91 0)
 			(effects
 				(font
@@ -4870,7 +4606,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb246a0-b563-4122-9dc6-d5960e8f7287")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 69.85 26.67 90)
 			(effects
 				(font
@@ -4902,7 +4638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 73.66 32.0548 0)
 			(effects
 				(font
@@ -4947,7 +4683,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5029,7 +4765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bcbc23e-7244-4621-bc2d-433cc3a4b6b2")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 130.81 47.625 0)
 			(effects
 				(font
@@ -5047,7 +4783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Buck:res0603"
 			(at 126.492 48.26 90)
 			(effects
 				(font
@@ -5092,7 +4828,73 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "R?")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80b6db72-a426-4eeb-97f2-4115a8c68339")
+		(property "Reference" "#PWR019"
+			(at 74.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44bbc679-e752-4b1d-9448-248b2d771c5b")
+		)
+		(instances
+			(project "buckUnit"
+				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5241,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a887ab-8b51-473f-827a-7d108797ace5")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 96.52 148.59 0)
 			(effects
 				(font
@@ -5300,9 +5102,9 @@
 			(uuid "863ac763-2abf-43ec-b6a3-fcebf2156d70")
 		)
 		(instances
-			(project ""
+			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1171fa1-e1b3-4ce5-93a3-96ef9d955ec1")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 130.81 93.345 0)
 			(effects
 				(font
@@ -5534,7 +5336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Buck:res0603"
 			(at 126.492 93.98 90)
 			(effects
 				(font
@@ -5579,7 +5381,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5595,7 +5397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4922993-ca25-4ced-9f89-98f663989073")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 69.85 72.39 90)
 			(effects
 				(font
@@ -5611,7 +5413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 73.66 77.7748 0)
 			(effects
 				(font
@@ -5656,7 +5458,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5936,7 +5738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4bb357-32c3-4846-93a0-9e3fab66dc38")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 130.81 37.465 0)
 			(effects
 				(font
@@ -5954,7 +5756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Buck:res0603"
 			(at 126.492 38.1 90)
 			(effects
 				(font
@@ -5999,7 +5801,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6015,7 +5817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db987e1b-43f2-4d27-bc31-9a14fc0c2056")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 119.38 83.185 0)
 			(effects
 				(font
@@ -6033,7 +5835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 116.5352 87.63 0)
 			(effects
 				(font
@@ -6078,7 +5880,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6094,7 +5896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7301601-381c-410d-99a0-0edf39cacbc8")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -6158,7 +5960,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6239,7 +6041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6e15c32-c297-4d40-92d1-6b26a851c11f")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 31.75 86.995 0)
 			(effects
 				(font
@@ -6257,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Buck:cap0603"
 			(at 28.9052 91.44 0)
 			(effects
 				(font
@@ -6302,7 +6104,7 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6318,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb37c90-9972-47ab-9ff8-415d3f61bd32")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 105.41 82.296 0)
 			(effects
 				(font
@@ -6336,7 +6138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:EIA-7343-D"
+		(property "Footprint" "Buck:EIA-7343-D"
 			(at 102.5652 87.63 0)
 			(effects
 				(font
@@ -6381,7 +6183,73 @@
 		(instances
 			(project "buckUnit"
 				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
-					(reference "C?")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb73dcc-7eef-4354-8e8a-92b99a8b8e00")
+		(property "Reference" "#PWR018"
+			(at 57.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d63f8101-79b3-409f-b87d-c71433c5b3d2")
+		)
+		(instances
+			(project "buckUnit"
+				(path "/c34fb36c-9a91-4484-9886-3fd47b645bc8"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
