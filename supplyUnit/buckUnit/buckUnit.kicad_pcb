@@ -5019,13 +5019,13 @@
 		)
 		(model "${KIPRJMOD}/3dmodels/XT60UPB-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1.5 0 8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 180 -90 0)
 			)
 		)
 	)
