@@ -492,7 +492,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 200,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -543,11 +543,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -600,12 +612,16 @@
       "connectors"
     ],
     [
+      "a77b9f5f-62f3-4e77-8724-0da5576d6cec",
+      "ENC"
+    ],
+    [
       "65597bc7-5aaa-4f27-9286-e75eee7edae8",
       "IMU"
     ],
     [
-      "9673eddf-80ee-4908-b21e-80531a02ef2e",
-      "STM32F4"
+      "e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63",
+      "tnsy"
     ]
   ],
   "text_variables": {}

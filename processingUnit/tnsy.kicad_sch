@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3ac2c8ea-59ae-4af0-96d1-8ec3ca9b6328")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BT RX"
+		(shape output)
+		(at 104.14 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "199054b9-4454-494f-9fee-5b41dd565153")
+	)
+	(hierarchical_label "CAM RX"
+		(shape output)
+		(at 104.14 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2382a100-d74d-4706-b8df-af7fa98a1a0a")
+	)
+	(hierarchical_label "ENC NSS"
+		(shape output)
+		(at 104.14 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44c1a8ee-d3f3-4a2d-9845-af0fb421a474")
+	)
+	(hierarchical_label "TNSY MISO"
+		(shape input)
+		(at 104.14 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c073d06-7748-4507-bcbc-a42d234d22bc")
+	)
+	(hierarchical_label "TNSY MOSI"
+		(shape output)
+		(at 104.14 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7343a092-1ea8-4c1d-bf8b-9d9bd6dace03")
+	)
+	(hierarchical_label "L1 RX"
+		(shape output)
+		(at 104.14 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8214e8b9-6ef8-4190-98ab-5e85e33a8b01")
+	)
+	(hierarchical_label "BT TX"
+		(shape output)
+		(at 104.14 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88d0e099-9cbd-4601-9f01-992e3a366add")
+	)
+	(hierarchical_label "TNSY SCK"
+		(shape output)
+		(at 104.14 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc31524b-086b-4adb-8c51-bdafee4dd1de")
+	)
+	(hierarchical_label "L1 TX"
+		(shape output)
+		(at 104.14 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9eff6e1-f1f0-4cc4-844b-1c722f591ddb")
+	)
+	(hierarchical_label "CAM TX"
+		(shape output)
+		(at 104.14 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecb6b304-5651-473a-8a44-55c316fba5a5")
+	)
+	(hierarchical_label "IMU NSS"
+		(shape output)
+		(at 104.14 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edc05854-1d17-4583-b420-7ce20d561b24")
+	)
+)
