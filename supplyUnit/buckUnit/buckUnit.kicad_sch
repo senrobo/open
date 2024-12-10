@@ -5886,13 +5886,13 @@
 	)
 	(symbol
 		(lib_id "vincent:PMOS_DGS")
-		(at 194.31 74.93 90)
+		(at 194.31 74.93 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "476c8e06-18fe-44d9-af92-233baaab2202")
 		(property "Reference" "Q1"
 			(at 194.31 66.04 90)
@@ -5911,7 +5911,7 @@
 			)
 		)
 		(property "Footprint" "Library:8-DFN (5x6)"
-			(at 191.77 69.85 0)
+			(at 196.85 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Value" "OKL-T6-W12-C"
+		(property "Value" "OKL-T6-W12P-C"
 			(at 45.72 22.86 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1K"
 			(at 196.85 91.4399 0)
 			(effects
 				(font
@@ -7243,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Value" "OKL-T6-W12-C"
+		(property "Value" "OKL-T6-W12P-C"
 			(at 99.06 22.86 0)
 			(effects
 				(font
