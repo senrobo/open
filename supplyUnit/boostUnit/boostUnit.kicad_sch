@@ -2493,6 +2493,12 @@
 		(uuid "0518faa9-ecbc-415e-862b-a7efcea5e915")
 	)
 	(junction
+		(at 254 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08879cb5-8415-4c47-93d1-72da05c4d359")
+	)
+	(junction
 		(at 215.9 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2661,6 +2667,12 @@
 		(uuid "bb7f3791-c937-4e8d-b23e-9072c647b3b2")
 	)
 	(junction
+		(at 254 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcbb6dd-ace6-4ce3-8e0a-b7001c779540")
+	)
+	(junction
 		(at 241.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2786,6 +2798,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 67.31) (xy 266.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12702565-f23b-4d10-b863-105040439db6")
+	)
+	(wire
+		(pts
 			(xy 87.63 123.19) (xy 90.17 123.19)
 		)
 		(stroke
@@ -2856,6 +2878,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 50.8) (xy 266.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224b4f82-4487-48d9-ad98-4944e4ed0bf5")
+	)
+	(wire
+		(pts
 			(xy 33.02 63.5) (xy 39.37 63.5)
 		)
 		(stroke
@@ -2863,6 +2895,16 @@
 			(type default)
 		)
 		(uuid "23a3b9bc-b7cd-4362-a2dd-c14016a7c619")
+	)
+	(wire
+		(pts
+			(xy 254 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bb3685-af1f-4be5-8fba-339028159687")
 	)
 	(wire
 		(pts
@@ -3446,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 81.28) (xy 254 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60480a5-f292-44a5-91b3-476756000770")
+	)
+	(wire
+		(pts
 			(xy 40.64 120.65) (xy 40.64 123.19)
 		)
 		(stroke
@@ -3846,7 +3898,7 @@
 	)
 	(rectangle
 		(start 118.11 25.4)
-		(end 266.7 88.9)
+		(end 280.67 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -5429,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Boost:CP_Radial_D16.0mm_P7.50mm"
 			(at 254.9652 69.85 0)
 			(effects
 				(font
@@ -5466,6 +5518,85 @@
 			(project "boostUnit"
 				(path "/697a38d4-3409-462e-879c-d6eee2cce560"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 271.78 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34fa098d-4abf-4829-bd0b-ffc0193bfff7")
+		(property "Reference" "BSJ2"
+			(at 274.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30"
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C108769"
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc10402-fec1-4669-bab9-5558d16ab3e7")
+		)
+		(pin "2"
+			(uuid "7c3d3aec-4c1e-427a-82f0-67f519f27a05")
+		)
+		(instances
+			(project "boostUnit"
+				(path "/697a38d4-3409-462e-879c-d6eee2cce560"
+					(reference "BSJ2")
 					(unit 1)
 				)
 			)
