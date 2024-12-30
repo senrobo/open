@@ -2114,7 +2114,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712133 0.912132)
+			(mid -1.712133 0.912133)
 			(end -1.8 0.699999)
 			(stroke
 				(width 0.1)
@@ -4790,7 +4790,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712131 0.912132)
+			(mid -1.712131 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -5893,7 +5893,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712131 -0.912132)
+			(mid -1.712131 -0.912131)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -5915,7 +5915,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712131 0.912132)
+			(mid -1.712132 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -5936,7 +5936,7 @@
 			(uuid "102159fa-15de-4718-a0ab-d13e230291dd")
 		)
 		(pad "1" smd roundrect
-			(at -0.8 0 84)
+			(at -0.800001 0 84)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -5957,7 +5957,7 @@
 			(uuid "7146fb4b-dcef-4253-a38a-c692bd42b22b")
 		)
 		(pad "2" smd roundrect
-			(at 0.8 0 84)
+			(at 0.800001 0 84)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -7474,7 +7474,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712132 0.912131)
+			(mid -1.712131 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -7485,7 +7485,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712132 -0.912133)
+			(mid -1.712133 -0.912133)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -8132,7 +8132,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712131 -0.912132)
+			(mid -1.712132 -0.912131)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -8164,7 +8164,7 @@
 			(uuid "98bd3c1c-7441-4dd4-93fd-c298a4d8d05f")
 		)
 		(pad "1" smd roundrect
-			(at -0.8 0 96)
+			(at -0.800001 0 96)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -8185,7 +8185,7 @@
 			(uuid "abc00a0b-ece1-440e-b9cb-a8a7a503a9f3")
 		)
 		(pad "2" smd roundrect
-			(at 0.8 0 96)
+			(at 0.800001 0 96)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -10099,7 +10099,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.6)
-			(mid -1.712133 -0.812134)
+			(mid -1.712134 -0.812134)
 			(end -1.5 -0.9)
 			(stroke
 				(width 0.1)
@@ -11098,7 +11098,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712132 -0.912133)
+			(mid -1.712133 -0.912133)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -11109,7 +11109,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712132 0.912131)
+			(mid -1.712131 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -11517,7 +11517,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712131 0.912132)
+			(mid -1.712132 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -11539,7 +11539,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712131 -0.912132)
+			(mid -1.712131 -0.912131)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -11549,7 +11549,7 @@
 			(uuid "0ee93df1-8684-4813-af9f-20055a763836")
 		)
 		(pad "1" smd roundrect
-			(at -0.8 0 264)
+			(at -0.800001 0 264)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -11570,7 +11570,7 @@
 			(uuid "68ad6c3c-d01f-46db-9de3-220cfc571d15")
 		)
 		(pad "2" smd roundrect
-			(at 0.8 0 264)
+			(at 0.800001 0 264)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -15010,7 +15010,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.6)
-			(mid -1.712133 -0.812134)
+			(mid -1.712134 -0.812134)
 			(end -1.5 -0.9)
 			(stroke
 				(width 0.1)
@@ -15214,7 +15214,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712131 0.912132)
+			(mid -1.712131 0.912131)
 			(end -1.8 0.7)
 			(stroke
 				(width 0.1)
@@ -16123,7 +16123,7 @@
 		)
 		(fp_arc
 			(start -1.799999 -0.7)
-			(mid -1.712132 -0.912131)
+			(mid -1.712133 -0.912132)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -22297,7 +22297,7 @@
 		)
 		(fp_arc
 			(start -1.799999 -0.7)
-			(mid -1.712132 -0.912131)
+			(mid -1.712133 -0.912132)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -23813,7 +23813,7 @@
 		(uuid "d85267e5-f960-4bdf-a083-bc02aaffef0b")
 		(at 203.2 110 180)
 		(property "Reference" "R252"
-			(at 0 1.700001 360)
+			(at 0 1.700001 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "5228794b-f16e-43ef-a144-b9ce4812bd31")
@@ -25316,7 +25316,7 @@
 		)
 		(fp_arc
 			(start -1.8 -0.7)
-			(mid -1.712131 -0.912132)
+			(mid -1.712132 -0.912131)
 			(end -1.5 -1)
 			(stroke
 				(width 0.1)
@@ -25337,7 +25337,7 @@
 			(uuid "bc5c569b-b956-46bf-b50a-023cbb8b4aea")
 		)
 		(pad "1" smd roundrect
-			(at -0.8 0 276)
+			(at -0.800001 0 276)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -25358,7 +25358,7 @@
 			(uuid "f40a4f87-d100-472d-bd88-ad73344e8acf")
 		)
 		(pad "2" smd roundrect
-			(at 0.8 0 276)
+			(at 0.800001 0 276)
 			(size 1 1)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.1)
@@ -27342,7 +27342,7 @@
 		)
 		(fp_arc
 			(start -1.5 1)
-			(mid -1.712133 0.912132)
+			(mid -1.712133 0.912133)
 			(end -1.8 0.699999)
 			(stroke
 				(width 0.1)
@@ -27655,6 +27655,17 @@
 		)
 	)
 	(gr_arc
+		(start 206.43817 93.35171)
+		(mid 104.903355 129.307073)
+		(end 204.417261 88.087063)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "8681f422-be79-41ed-b0f6-d6f2d1802563")
+	)
+	(gr_arc
 		(start 211.084165 113.599999)
 		(mid 194.797979 149.597979)
 		(end 158.799999 165.884165)
@@ -27854,52 +27865,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fec0a129-f9d3-43b2-91ac-941c9b92753e")
-	)
-	(zone
-		(net 1)
-		(net_name "+3V3")
-		(layer "B.Cu")
-		(uuid "655cca71-45d9-4c1a-a0ea-58ba04f3f3f2")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 160.2 112.875) (xy 160.256173 112.87641) (xy 160.312346 112.882338) (xy 160.368519 112.892783)
-				(xy 160.424692 112.907745) (xy 160.480866 112.927225) (xy 160.537039 112.951223) (xy 160.593212 112.979738)
-				(xy 160.649385 113.01277) (xy 160.705558 113.05032) (xy 160.761732 113.092388) (xy 161.201 112.6)
-				(xy 160.706254 112.168555) (xy 160.655628 112.237204) (xy 160.605003 112.300742) (xy 160.554377 112.359167)
-				(xy 160.503752 112.41248) (xy 160.453127 112.460681) (xy 160.402501 112.503769) (xy 160.351876 112.541745)
-				(xy 160.30125 112.574609) (xy 160.250625 112.60236) (xy 160.2 112.625)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 160.2 112.875) (xy 160.256173 112.87641) (xy 160.312346 112.882338) (xy 160.368519 112.892783)
-				(xy 160.424692 112.907745) (xy 160.480866 112.927225) (xy 160.537039 112.951223) (xy 160.593212 112.979738)
-				(xy 160.649385 113.01277) (xy 160.705558 113.05032) (xy 160.761732 113.092388) (xy 161.201 112.6)
-				(xy 160.706254 112.168555) (xy 160.655628 112.237204) (xy 160.605003 112.300742) (xy 160.554377 112.359167)
-				(xy 160.503752 112.41248) (xy 160.453127 112.460681) (xy 160.402501 112.503769) (xy 160.351876 112.541745)
-				(xy 160.30125 112.574609) (xy 160.250625 112.60236) (xy 160.2 112.625)
-			)
-		)
 	)
 	(group ""
 		(uuid "1e64766a-08a1-4b9a-be6b-468184cd5b8d")
