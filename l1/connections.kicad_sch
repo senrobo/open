@@ -2640,7 +2640,7 @@
 			(uuid "1eed0be7-8352-4fe3-a788-75fbbb964de6")
 		)
 		(instances
-			(project ""
+			(project "l1"
 				(path "/0e4ddce5-5c0a-41d1-ab67-e7bad6d98362/db28a344-f5d1-410a-891a-2aeea8fe8f70"
 					(reference "J201")
 					(unit 1)
