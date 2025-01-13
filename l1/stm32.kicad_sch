@@ -2582,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 148.59) (xy 40.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f07a63-b714-4df2-9975-1fa03c64caa2")
+	)
+	(wire
+		(pts
 			(xy 45.72 62.23) (xy 45.72 64.77)
 		)
 		(stroke
@@ -2622,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 111.76 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ee9caa-4cb2-4ee3-a9e3-aae34e92aace")
-	)
-	(wire
-		(pts
 			(xy 76.2 52.07) (xy 76.2 54.61)
 		)
 		(stroke
@@ -2652,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 135.89) (xy 96.52 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9642d8f-b159-4c59-ac96-c61673180fb6")
+	)
+	(wire
+		(pts
 			(xy 25.4 62.23) (xy 25.4 64.77)
 		)
 		(stroke
@@ -2669,16 +2679,6 @@
 			(type default)
 		)
 		(uuid "cae86dfa-f0c5-410c-8d1d-c543338bd218")
-	)
-	(wire
-		(pts
-			(xy 40.64 148.59) (xy 55.88 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf87c913-147a-4091-a965-55d34f5e8ea7")
 	)
 	(wire
 		(pts
@@ -4157,18 +4157,6 @@
 		)
 		(uuid "0156a5e1-7355-4a8e-88dc-6c0cdcb074d8")
 	)
-	(hierarchical_label "M1"
-		(shape input)
-		(at 40.64 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ec2895c-4402-494a-a7bf-bc71e0c23eb0")
-	)
 	(hierarchical_label "M2 S0"
 		(shape output)
 		(at 111.76 148.59 0)
@@ -4193,6 +4181,18 @@
 		)
 		(uuid "4c15a180-8224-48aa-a2b6-9f449f2ed98b")
 	)
+	(hierarchical_label "M1"
+		(shape input)
+		(at 111.76 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55e0f52f-0281-442f-ae56-66371dca14e0")
+	)
 	(hierarchical_label "M2 S2"
 		(shape output)
 		(at 111.76 146.05 0)
@@ -4205,18 +4205,6 @@
 		)
 		(uuid "80bb20bb-01c1-414e-89e9-dc5e5202d9e0")
 	)
-	(hierarchical_label "M2"
-		(shape input)
-		(at 111.76 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9836cd37-286b-4fe5-9fa0-b3fc90940171")
-	)
 	(hierarchical_label "M1 S1"
 		(shape output)
 		(at 111.76 158.75 0)
@@ -4228,6 +4216,18 @@
 			(justify left)
 		)
 		(uuid "99c2f09a-e0a6-4c25-8111-02f9aae77b09")
+	)
+	(hierarchical_label "M2"
+		(shape input)
+		(at 40.64 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b10ff6b4-f1fc-4668-954f-93bda95fa997")
 	)
 	(hierarchical_label "M1 S3"
 		(shape output)
