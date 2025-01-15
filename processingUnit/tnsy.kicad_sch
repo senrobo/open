@@ -1419,7 +1419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:Teensy 4.0"
+		(property "Footprint" "Library:Teensy 4.0"
 			(at 128.9729 118.7292 0)
 			(effects
 				(font

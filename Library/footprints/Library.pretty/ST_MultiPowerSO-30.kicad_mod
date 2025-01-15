@@ -512,7 +512,7 @@
 		(remove_unused_layers no)
 		(uuid "c629a59e-be5d-43fa-8f3f-3ba5d146b6be")
 	)
-	(model "${KIPRJMOD}/3dmodels/PowSO30-ST.step"
+	(model "C:/Users/dread/OneDrive/Documents/GitHub/open/Library/3dmodels/PowSO30-ST.step"
 		(offset
 			(xyz -8.6 -9.5 0)
 		)

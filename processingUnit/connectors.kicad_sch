@@ -2358,7 +2358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:526101071"
 			(at 67.7328 165.5299 0)
 			(effects
 				(font

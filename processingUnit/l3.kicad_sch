@@ -2452,7 +2452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 247.142 138.43 90)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 242.062 77.47 90)
 			(effects
 				(font
@@ -2589,7 +2589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -2802,7 +2802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 129.54 139.7 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 242.062 138.43 90)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 247.142 107.95 90)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 242.062 107.95 90)
 			(effects
 				(font
@@ -3529,7 +3529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 247.142 77.47 90)
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 242.062 46.99 90)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 198.12 49.53 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -4212,7 +4212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 247.142 46.99 90)
 			(effects
 				(font
@@ -4477,7 +4477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 198.12 76.2 0)
 			(effects
 				(font
@@ -4557,7 +4557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOT-23-6"
 			(at 198.12 102.87 0)
 			(effects
 				(font

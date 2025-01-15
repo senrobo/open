@@ -4606,7 +4606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 171.958 113.03 90)
 			(effects
 				(font
@@ -4807,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 124.968 90)
 			(effects
 				(font
@@ -4874,7 +4874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 67.818 90)
 			(effects
 				(font
@@ -4942,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 135.382 90)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 121.158 90)
 			(effects
 				(font
@@ -5077,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 130.302 90)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 62.738 90)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 165.862 143.51 90)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 58.928 90)
 			(effects
 				(font
@@ -5628,7 +5628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 130.048 90)
 			(effects
 				(font
@@ -5762,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:VNH5019A-E"
+		(property "Footprint" "Library:ST_MultiPowerSO-30"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -6175,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:VNH5019A-E"
+		(property "Footprint" "Library:ST_MultiPowerSO-30"
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 73.152 90)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:VNH5019A-E"
+		(property "Footprint" "Library:ST_MultiPowerSO-30"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -6738,7 +6738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 59.182 143.51 90)
 			(effects
 				(font
@@ -6807,7 +6807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 65.278 113.03 90)
 			(effects
 				(font
@@ -7112,7 +7112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:VNH5019A-E"
+		(property "Footprint" "Library:ST_MultiPowerSO-30"
 			(at 185.42 87.63 0)
 			(effects
 				(font
@@ -7391,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 58.928 90)
 			(effects
 				(font
@@ -7539,7 +7539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 165.862 81.28 90)
 			(effects
 				(font
@@ -7609,7 +7609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 56.642 113.03 90)
 			(effects
 				(font
@@ -7769,7 +7769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 68.072 90)
 			(effects
 				(font
@@ -7839,7 +7839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 56.642 50.8 90)
 			(effects
 				(font
@@ -7909,7 +7909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 59.182 81.28 90)
 			(effects
 				(font
@@ -8191,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 73.152 90)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 171.958 50.8 90)
 			(effects
 				(font
@@ -8329,7 +8329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 65.278 50.8 90)
 			(effects
 				(font
@@ -8397,7 +8397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 135.382 90)
 			(effects
 				(font
@@ -8465,7 +8465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 130.302 90)
 			(effects
 				(font
@@ -8602,7 +8602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 163.322 50.8 90)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 130.048 90)
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 124.968 90)
 			(effects
 				(font
@@ -9105,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 62.738 90)
 			(effects
 				(font
@@ -9173,7 +9173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 176.53 68.072 90)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 67.818 90)
 			(effects
 				(font
@@ -9452,7 +9452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 69.85 121.158 90)
 			(effects
 				(font
@@ -9589,7 +9589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Library:res0603"
 			(at 163.322 113.03 90)
 			(effects
 				(font
