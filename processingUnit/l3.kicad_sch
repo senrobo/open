@@ -1444,6 +1444,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 129.54) (xy 237.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d5e740-23d3-4cdc-8406-62a2e4294f9e")
+	)
+	(wire
+		(pts
 			(xy 189.23 130.81) (xy 189.23 119.38)
 		)
 		(stroke
@@ -1491,6 +1501,16 @@
 			(type default)
 		)
 		(uuid "674e1d1d-55fd-49b2-a871-f95673b65564")
+	)
+	(wire
+		(pts
+			(xy 261.62 132.08) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ce4cd-176c-4c4b-bfa1-e39385301c15")
 	)
 	(wire
 		(pts
@@ -1591,16 +1611,6 @@
 			(type default)
 		)
 		(uuid "8235f162-49ec-48fb-947f-1a12b0d97e9c")
-	)
-	(wire
-		(pts
-			(xy 261.62 132.08) (xy 237.49 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842d8cc6-406d-46ef-91a3-9d04cfaef74c")
 	)
 	(wire
 		(pts
@@ -1871,16 +1881,6 @@
 			(type default)
 		)
 		(uuid "a7e2c6e2-75fe-4863-894d-d057607a661d")
-	)
-	(wire
-		(pts
-			(xy 261.62 129.54) (xy 237.49 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9489999-4aa6-41a6-b616-8f49c9a3f2f7")
 	)
 	(wire
 		(pts
@@ -5022,7 +5022,7 @@
 			(uuid "9d040966-1fd5-4623-9a44-63434cb26036")
 		)
 		(pin "M4 OUT B" output
-			(at 237.49 129.54 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5032,7 @@
 			(uuid "67754ff6-f203-4a33-90a7-00c4aa1af734")
 		)
 		(pin "M4 OUT A" output
-			(at 237.49 132.08 0)
+			(at 237.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
