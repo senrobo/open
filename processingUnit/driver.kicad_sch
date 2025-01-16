@@ -5147,7 +5147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Library:cap0603"
 			(at 236.5248 82.55 0)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Library:CP_Radial_D8.0mm_P3.50mm"
 			(at 119.0752 82.55 0)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:8-DFN (5x6)"
+		(property "Footprint" "Library:8-DFN (5x6)"
 			(at 231.14 58.42 90)
 			(effects
 				(font
@@ -7460,7 +7460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Library:CP_Radial_D8.0mm_P3.50mm"
 			(at 225.7552 144.78 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:8-DFN (5x6)"
+		(property "Footprint" "Library:8-DFN (5x6)"
 			(at 124.46 120.65 90)
 			(effects
 				(font
@@ -8114,7 +8114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Library:cap0603"
 			(at 129.8448 144.78 0)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:8-DFN (5x6)"
+		(property "Footprint" "Library:8-DFN (5x6)"
 			(at 124.46 58.42 90)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Library:CP_Radial_D8.0mm_P3.50mm"
 			(at 119.0752 144.78 0)
 			(effects
 				(font
@@ -9376,7 +9376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Library:cap0603"
 			(at 236.5248 144.78 0)
 			(effects
 				(font
@@ -9659,7 +9659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Library:cap0603"
 			(at 129.8448 82.55 0)
 			(effects
 				(font
@@ -9739,7 +9739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:8-DFN (5x6)"
+		(property "Footprint" "Library:8-DFN (5x6)"
 			(at 231.14 120.65 90)
 			(effects
 				(font
@@ -9829,7 +9829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Library:CP_Radial_D8.0mm_P3.50mm"
 			(at 225.7552 82.55 0)
 			(effects
 				(font

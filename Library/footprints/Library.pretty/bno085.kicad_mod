@@ -366,7 +366,7 @@
 		(remove_unused_layers no)
 		(uuid "dd8c66c7-e268-45ae-80d9-7d85fe2d738c")
 	)
-	(model "${KIPRJMOD}/3dmodels/Adafruit BNO085.step"
+	(model "C:/Users/dread/OneDrive/Documents/GitHub/open/Library/3dmodels/Adafruit BNO085.step"
 		(offset
 			(xyz 0 0 10)
 		)

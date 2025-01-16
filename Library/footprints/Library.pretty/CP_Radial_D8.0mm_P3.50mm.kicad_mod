@@ -153,7 +153,7 @@
 		(remove_unused_layers no)
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
 	)
-	(model "${KIPRJMOD}/3dmodels/CAPPRD350W65D800H1250C.step"
+	(model "C:/Users/dread/OneDrive/Documents/GitHub/open/Library/3dmodels/CAPPRD350W65D800H1250C.step"
 		(offset
 			(xyz 0 0 0)
 		)

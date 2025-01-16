@@ -171,7 +171,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "413192e5-69f8-4114-b443-308d2a8e7c3f")
 	)
-	(model "${KIPRJMOD}/3dmodels/DFN08L_5X6A.step"
+	(model "C:/Users/dread/OneDrive/Documents/GitHub/open/Library/3dmodels/DFN08L_5X6A.step"
 		(offset
 			(xyz 0 0 0)
 		)
