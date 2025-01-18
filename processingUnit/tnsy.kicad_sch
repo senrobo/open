@@ -1041,16 +1041,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 107.95) (xy 104.14 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efc1b96-cbd2-4276-88bd-1abf330038e3")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 176.53 99.06)
 		)
 		(stroke
@@ -1068,6 +1058,16 @@
 			(type default)
 		)
 		(uuid "22fe0f9d-4f99-462b-b63d-8d5ad3b3d413")
+	)
+	(wire
+		(pts
+			(xy 113.03 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fdc814-7f8b-4cde-80e6-651971c6cb27")
 	)
 	(wire
 		(pts
@@ -1108,6 +1108,16 @@
 			(type default)
 		)
 		(uuid "5450ba09-2220-4d23-9d8a-098c072c45a1")
+	)
+	(wire
+		(pts
+			(xy 113.03 123.19) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9676de-3f28-4c9c-b2ea-fad1727c0b7e")
 	)
 	(wire
 		(pts
@@ -1188,16 +1198,6 @@
 			(type default)
 		)
 		(uuid "e7dd3339-238e-47b2-b326-fed9282623a6")
-	)
-	(wire
-		(pts
-			(xy 113.03 105.41) (xy 104.14 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed443e24-2681-4b46-a413-4ec3cde2af94")
 	)
 	(wire
 		(pts
@@ -1301,7 +1301,7 @@
 	)
 	(hierarchical_label "ENC NSS"
 		(shape output)
-		(at 104.14 105.41 180)
+		(at 104.14 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1309,7 +1309,7 @@
 			)
 			(justify right)
 		)
-		(uuid "44c1a8ee-d3f3-4a2d-9845-af0fb421a474")
+		(uuid "31eaa062-8bd4-4192-aa5f-93a174a41acc")
 	)
 	(hierarchical_label "TNSY MISO"
 		(shape input)
@@ -1347,6 +1347,18 @@
 		)
 		(uuid "88d0e099-9cbd-4601-9f01-992e3a366add")
 	)
+	(hierarchical_label "IMU STM NSS"
+		(shape output)
+		(at 104.14 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c4e768c-c85f-4162-80b5-43cea1f72778")
+	)
 	(hierarchical_label "CAM RX"
 		(shape output)
 		(at 104.14 100.33 180)
@@ -1370,18 +1382,6 @@
 			(justify left)
 		)
 		(uuid "dc31524b-086b-4adb-8c51-bdafee4dd1de")
-	)
-	(hierarchical_label "IMU NSS"
-		(shape output)
-		(at 104.14 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "edc05854-1d17-4583-b420-7ce20d561b24")
 	)
 	(symbol
 		(lib_id "vincent:Teensy 4.0")

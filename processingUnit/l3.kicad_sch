@@ -2724,86 +2724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "vincent:SN74LVC2G04")
-		(at 198.12 130.81 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c4e2379-5b0e-4997-86b6-fe0505b08346")
-		(property "Reference" "U304"
-			(at 199.39 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC2G04"
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SOT-23-6"
-			(at 198.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d396450-c9b6-44b8-a947-3c269993ef7c")
-		)
-		(pin "6"
-			(uuid "87a9c0ef-dec0-4e4a-9f29-3b10555bec4c")
-		)
-		(pin "3"
-			(uuid "a478b954-8b3f-4145-90b5-11ae897d7517")
-		)
-		(pin "4"
-			(uuid "36bb6641-114d-4891-9dfa-1ef9dbcdfd3b")
-		)
-		(pin "5"
-			(uuid "0623fc02-119c-4a9c-86b2-0a6707bc9453")
-		)
-		(pin "1"
-			(uuid "baf1196d-3a56-443a-9132-6049c6c22246")
-		)
-		(instances
-			(project "l3"
-				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
-					(reference "U304")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 264.16 86.36 0)
 		(unit 1)
@@ -3012,6 +2932,166 @@
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
 					(reference "U304")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vincent:SN74LVC2G04")
+		(at 198.12 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a939c13-2647-4892-9ada-1d98c93dcccd")
+		(property "Reference" "U304"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G04"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-23-6"
+			(at 198.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d396450-c9b6-44b8-a947-3c269993ef7e")
+		)
+		(pin "6"
+			(uuid "bf4148c3-d811-4878-9aac-dd900cf4308f")
+		)
+		(pin "3"
+			(uuid "a478b954-8b3f-4145-90b5-11ae897d7519")
+		)
+		(pin "4"
+			(uuid "36bb6641-114d-4891-9dfa-1ef9dbcdfd3d")
+		)
+		(pin "5"
+			(uuid "0623fc02-119c-4a9c-86b2-0a6707bc9455")
+		)
+		(pin "1"
+			(uuid "9d0ca054-4097-485b-946d-1e2411d26746")
+		)
+		(instances
+			(project "l3"
+				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
+					(reference "U304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vincent:SN74LVC2G04")
+		(at 198.12 102.87 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb8222c-b742-4335-851f-f048aa8a6974")
+		(property "Reference" "U304"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G04"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-23-6"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d396450-c9b6-44b8-a947-3c269993ef7c")
+		)
+		(pin "6"
+			(uuid "87a9c0ef-dec0-4e4a-9f29-3b10555bec4c")
+		)
+		(pin "3"
+			(uuid "022af239-dfb3-438b-b465-c8c9132eb21d")
+		)
+		(pin "4"
+			(uuid "c7e53e85-d956-4446-ae5d-bd5371b5a4af")
+		)
+		(pin "5"
+			(uuid "0623fc02-119c-4a9c-86b2-0a6707bc9453")
+		)
+		(pin "1"
+			(uuid "baf1196d-3a56-443a-9132-6049c6c22246")
+		)
+		(instances
+			(project "l3"
+				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
+					(reference "U304")
+					(unit 2)
 				)
 			)
 		)
@@ -4612,86 +4692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "vincent:SN74LVC2G04")
-		(at 198.12 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f64c43-0efc-40ae-8717-25bcd1824f84")
-		(property "Reference" "U304"
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC2G04"
-			(at 199.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SOT-23-6"
-			(at 198.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d396450-c9b6-44b8-a947-3c269993ef7e")
-		)
-		(pin "6"
-			(uuid "87a9c0ef-dec0-4e4a-9f29-3b10555bec4e")
-		)
-		(pin "3"
-			(uuid "a478b954-8b3f-4145-90b5-11ae897d7519")
-		)
-		(pin "4"
-			(uuid "36bb6641-114d-4891-9dfa-1ef9dbcdfd3d")
-		)
-		(pin "5"
-			(uuid "0623fc02-119c-4a9c-86b2-0a6707bc9455")
-		)
-		(pin "1"
-			(uuid "baf1196d-3a56-443a-9132-6049c6c22248")
-		)
-		(instances
-			(project "l3"
-				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
-					(reference "U304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 114.3 139.7 0)
 		(unit 1)
@@ -4864,7 +4864,7 @@
 	)
 	(sheet
 		(at 104.14 45.72)
-		(size 13.97 15.24)
+		(size 15.24 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4923,7 +4923,7 @@
 			)
 			(uuid "a91cb312-113f-4d0c-9cb0-25fba1572aa9")
 		)
-		(pin "IMU NSS" input
+		(pin "IMU STM NSS" input
 			(at 104.14 57.15 180)
 			(effects
 				(font
@@ -5388,7 +5388,7 @@
 			)
 			(uuid "22d6abdb-186b-4fad-906c-8902bcef96a1")
 		)
-		(pin "IMU NSS" output
+		(pin "IMU STM NSS" output
 			(at 88.9 57.15 0)
 			(effects
 				(font
