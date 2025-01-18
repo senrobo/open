@@ -6640,7 +6640,7 @@
 		)
 		(uuid "af31b365-0efa-4c84-9989-cfc3908eaffe")
 	)
-	(hierarchical_label "IMU NSS"
+	(hierarchical_label "TNSY NSS"
 		(shape input)
 		(at 38.1 123.19 180)
 		(fields_autoplaced yes)

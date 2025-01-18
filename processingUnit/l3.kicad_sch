@@ -2439,6 +2439,86 @@
 		)
 	)
 	(symbol
+		(lib_id "vincent:SN74LVC2G04")
+		(at 198.12 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0381c6ab-1989-4946-9929-421759079a8d")
+		(property "Reference" "U303"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G04"
+			(at 199.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-23-6"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7fe85ddc-9ba1-4abc-9f03-7e88eec66bbe")
+		)
+		(pin "3"
+			(uuid "29b1c863-6c5e-46d4-a83a-ebff45601079")
+		)
+		(pin "5"
+			(uuid "514b3ce8-e650-4d42-8f0f-409615e93772")
+		)
+		(pin "2"
+			(uuid "f61deee7-96ac-4218-9c21-7766fb073412")
+		)
+		(pin "1"
+			(uuid "080eb09d-1d3b-4e36-a7b3-d6f6167c0433")
+		)
+		(pin "6"
+			(uuid "23c980f2-9bb9-4b8b-824e-66a7da238839")
+		)
+		(instances
+			(project "l3"
+				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
+					(reference "U303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 147.32 124.46 0)
 		(unit 1)
@@ -3721,86 +3801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "vincent:SN74LVC2G04")
-		(at 198.12 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5af16f2-1e58-4a43-858b-f5d2a888632d")
-		(property "Reference" "U303"
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC2G04"
-			(at 199.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SOT-23-6"
-			(at 198.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7fe85ddc-9ba1-4abc-9f03-7e88eec66bbe")
-		)
-		(pin "3"
-			(uuid "29b1c863-6c5e-46d4-a83a-ebff45601079")
-		)
-		(pin "5"
-			(uuid "514b3ce8-e650-4d42-8f0f-409615e93772")
-		)
-		(pin "2"
-			(uuid "f61deee7-96ac-4218-9c21-7766fb073412")
-		)
-		(pin "1"
-			(uuid "b21169ef-be33-4cd5-bc9b-735db1eaed82")
-		)
-		(pin "6"
-			(uuid "a4ac516a-d07e-4a29-b929-2b79fefa9e25")
-		)
-		(instances
-			(project "l3"
-				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
-					(reference "U303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 255.27 93.98 0)
 		(unit 1)
@@ -4533,16 +4533,16 @@
 	)
 	(symbol
 		(lib_id "vincent:SN74LVC2G04")
-		(at 198.12 76.2 0)
+		(at 198.12 49.53 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e385ecfa-957c-4ad0-ad54-71b79a2fe91f")
+		(uuid "dbbdccf1-f00d-401d-b872-41611a708549")
 		(property "Reference" "U303"
-			(at 199.39 67.31 0)
+			(at 199.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4550,7 @@
 			)
 		)
 		(property "Value" "SN74LVC2G04"
-			(at 199.39 69.85 0)
+			(at 199.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4558,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-23-6"
-			(at 198.12 76.2 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 76.2 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 76.2 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,10 +4585,10 @@
 			)
 		)
 		(pin "4"
-			(uuid "7fe85ddc-9ba1-4abc-9f03-7e88eec66bc0")
+			(uuid "af201283-ba24-408f-95ce-3bacc9430e09")
 		)
 		(pin "3"
-			(uuid "29b1c863-6c5e-46d4-a83a-ebff4560107b")
+			(uuid "5d90de5d-76cd-4057-a4fe-46bef1d1574d")
 		)
 		(pin "5"
 			(uuid "514b3ce8-e650-4d42-8f0f-409615e93774")
