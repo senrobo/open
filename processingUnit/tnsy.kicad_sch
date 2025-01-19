@@ -1026,8 +1026,60 @@
 		)
 	)
 	(no_connect
+		(at 146.05 115.57)
+		(uuid "0f12e099-750e-4c39-8c36-868756e8b234")
+	)
+	(no_connect
+		(at 146.05 113.03)
+		(uuid "10984dc3-2151-4ce3-81c3-585326bb9b38")
+	)
+	(no_connect
+		(at 113.03 115.57)
+		(uuid "1e0eb2bf-9af7-4d71-9498-038c3febc46f")
+	)
+	(no_connect
+		(at 146.05 123.19)
+		(uuid "2a99c0bc-6789-4af3-a9f8-1701f7ba4967")
+	)
+	(no_connect
+		(at 146.05 120.65)
+		(uuid "89b4f95d-da39-4c3c-a354-dfbc86a82e9e")
+	)
+	(no_connect
 		(at 186.69 101.6)
 		(uuid "a1f53ef6-d81b-47fe-a253-fd8193572683")
+	)
+	(no_connect
+		(at 146.05 107.95)
+		(uuid "a33ccd1e-e4e0-4d0c-b7f0-7dc8788d7dbd")
+	)
+	(no_connect
+		(at 113.03 113.03)
+		(uuid "a5897ca2-2e29-413d-87ad-c2cd534fccf8")
+	)
+	(no_connect
+		(at 113.03 110.49)
+		(uuid "a6bb1951-11e6-4d12-ad57-dd874249c40c")
+	)
+	(no_connect
+		(at 146.05 118.11)
+		(uuid "aab71407-9123-400d-a6f4-36299a2486fc")
+	)
+	(no_connect
+		(at 146.05 102.87)
+		(uuid "acee3243-3bcc-44f1-8005-21f235da65b0")
+	)
+	(no_connect
+		(at 146.05 110.49)
+		(uuid "be0e071c-66bb-420e-95ba-44130b9e1ef5")
+	)
+	(no_connect
+		(at 146.05 105.41)
+		(uuid "de2d5077-e66c-4875-b3e0-056886f864d4")
+	)
+	(no_connect
+		(at 113.03 107.95)
+		(uuid "ec77dfb8-5f9e-422f-9eb7-e6aba6de8cf1")
 	)
 	(wire
 		(pts
@@ -1038,6 +1090,16 @@
 			(type default)
 		)
 		(uuid "0946c64b-b8de-41d2-aa8e-8dc2851b8393")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd07e51-b062-4300-9c5c-9323869050ea")
 	)
 	(wire
 		(pts
@@ -1071,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 97.79) (xy 113.03 97.79)
+			(xy 90.17 97.79) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 92.71 97.79)
+			(xy 90.17 99.06) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1253,6 +1315,50 @@
 			)
 		)
 	)
+	(global_label "KICK SIG"
+		(shape output)
+		(at 104.14 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c7dcf25-e5bc-4185-a908-7fac86479655")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6881 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAM RX"
+		(shape bidirectional)
+		(at 104.14 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "addac80b-1d9c-4f12-beeb-9053dc734cb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7864 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LIGHT TX"
 		(shape bidirectional)
 		(at 104.14 120.65 180)
@@ -1275,6 +1381,28 @@
 			)
 		)
 	)
+	(global_label "CAM TX"
+		(shape bidirectional)
+		(at 104.14 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9a6e562-96b8-453d-a71c-e7c0054033fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.0888 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "BT RX"
 		(shape output)
 		(at 153.67 128.27 0)
@@ -1286,18 +1414,6 @@
 			(justify left)
 		)
 		(uuid "199054b9-4454-494f-9fee-5b41dd565153")
-	)
-	(hierarchical_label "CAM TX"
-		(shape output)
-		(at 104.14 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24afef2b-74f2-43ab-a13c-0c9a3acb63c8")
 	)
 	(hierarchical_label "ENC NSS"
 		(shape output)
@@ -1358,18 +1474,6 @@
 			(justify right)
 		)
 		(uuid "8c4e768c-c85f-4162-80b5-43cea1f72778")
-	)
-	(hierarchical_label "CAM RX"
-		(shape output)
-		(at 104.14 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc013fa6-82f9-4f6c-b905-ab2f5ab8a01c")
 	)
 	(hierarchical_label "TNSY SCK"
 		(shape output)
@@ -1673,7 +1777,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 92.71 99.06 0)
+		(at 90.17 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1683,7 +1787,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a98147-d9f4-4d08-8a27-8f1d2d0cd0b6")
 		(property "Reference" "#PWR0340"
-			(at 92.71 105.41 0)
+			(at 90.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1796,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 92.71 104.14 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 99.06 0)
+			(at 90.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 99.06 0)
+			(at 90.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 92.71 99.06 0)
+			(at 90.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

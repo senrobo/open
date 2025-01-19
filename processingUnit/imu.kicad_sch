@@ -5960,6 +5960,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 170.18) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933f4262-5951-4d48-b4c8-8ef4d86e8921")
+	)
+	(wire
+		(pts
 			(xy 85.09 53.34) (xy 85.09 55.88)
 		)
 		(stroke
@@ -6117,6 +6127,16 @@
 			(type default)
 		)
 		(uuid "ba17d2d1-31b4-4d04-9d32-f0d78e97b285")
+	)
+	(wire
+		(pts
+			(xy 74.93 167.64) (xy 92.71 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf9e2f8-1ec8-438c-86c3-d03875d70c27")
 	)
 	(wire
 		(pts
@@ -6591,6 +6611,28 @@
 			(type none)
 		)
 		(uuid b7907be2-0975-4b4a-9e6a-14bcde4178f9)
+	)
+	(label "IMU SWDIO"
+		(at 76.2 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11e3e9a1-8ec5-4529-9954-958425bc782e")
+	)
+	(label "IMU SWCLK"
+		(at 76.2 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "128dcaeb-2be4-4d25-84d9-866f46d38511")
 	)
 	(label "IMU RST"
 		(at 171.45 138.43 180)
@@ -7465,6 +7507,82 @@
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
 					(reference "C310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 97.79 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d631bd6-289b-4b9f-b18a-2713e843fab4")
+		(property "Reference" "J303"
+			(at 100.33 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 100.33 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 97.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e65c8f19-3140-41a7-8b99-dd2545092c54")
+		)
+		(pin "3"
+			(uuid "868a94e3-72a7-40d6-9031-e96c3866f177")
+		)
+		(pin "1"
+			(uuid "12112031-3030-459a-9888-a6892b0a89bb")
+		)
+		(pin "2"
+			(uuid "358f1734-5227-4a79-bd39-7961fdc1eafe")
+		)
+		(instances
+			(project "l3"
+				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
+					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -9193,33 +9311,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 68.58 173.99 180)
+		(lib_id "power:GNDREF")
+		(at 92.71 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be153419-882d-4876-ad4a-1486dc5f7394")
-		(property "Reference" "J303"
-			(at 68.58 162.56 0)
+		(uuid "c03ce4b3-c047-4833-8f16-84c5a9086238")
+		(property "Reference" "#PWR0362"
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 68.58 165.1 0)
+		(property "Value" "GNDREF"
+			(at 92.71 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 173.99 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,8 +9347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 173.99 0)
+		(property "Datasheet" ""
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,8 +9356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 173.99 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,21 +9366,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4dfc69b-b3d5-4677-8f22-5a8c7eb250fb")
-		)
-		(pin "2"
-			(uuid "2e6622a6-30ed-43b6-85ec-c40a92edd14d")
-		)
-		(pin "3"
-			(uuid "35eac9ea-370b-4793-8f7d-9f03dee16c24")
-		)
-		(pin "4"
-			(uuid "eb34c41e-2df8-46d0-a19e-ad7ec4e712a3")
+			(uuid "a6b73e78-06a0-4ac6-85e6-4af7fc6d4adc")
 		)
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
-					(reference "J303")
+					(reference "#PWR0362")
 					(unit 1)
 				)
 			)
@@ -9778,6 +9889,72 @@
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
 					(reference "Y301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1bca57a-7ea6-4a9b-81c8-af8fa96c1fd3")
+		(property "Reference" "#PWR0361"
+			(at 92.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3 FILT"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5101cd0-7312-483b-a8b3-2e765295392a")
+		)
+		(instances
+			(project "l3"
+				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
+					(reference "#PWR0361")
 					(unit 1)
 				)
 			)
