@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -609,7 +609,7 @@
     ],
     [
       "26fa24e2-dd9a-49a9-9a0e-c48ef9d66c8d",
-      "connectors"
+      "Connectors and MTH"
     ],
     [
       "a77b9f5f-62f3-4e77-8724-0da5576d6cec",
@@ -621,11 +621,11 @@
     ],
     [
       "e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63",
-      "tnsy"
+      "Teensy and Bluetooth"
     ],
     [
       "6fd2fedf-389d-40a4-a7bf-c3c1142ed045",
-      "driver"
+      "Motor Driver"
     ]
   ],
   "text_variables": {}

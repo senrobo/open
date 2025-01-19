@@ -4593,7 +4593,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "26fa24e2-dd9a-49a9-9a0e-c48ef9d66c8d")
-		(property "Sheetname" "connectors"
+		(property "Sheetname" "Connectors and MTH"
 			(at 50.8 76.7584 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6fd2fedf-389d-40a4-a7bf-c3c1142ed045")
-		(property "Sheetname" "driver"
+		(property "Sheetname" "Motor Driver"
 			(at 214.63 34.8484 0)
 			(effects
 				(font
@@ -5107,7 +5107,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63")
-		(property "Sheetname" "tnsy"
+		(property "Sheetname" "Teensy and Bluetooth"
 			(at 63.5 34.8484 0)
 			(effects
 				(font
