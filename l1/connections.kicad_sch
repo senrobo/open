@@ -3384,7 +3384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:fb0603"
+		(property "Footprint" "Library:fb0805"
 			(at 151.13 99.568 90)
 			(effects
 				(font
