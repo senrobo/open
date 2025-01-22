@@ -1026,8 +1026,68 @@
 		)
 	)
 	(no_connect
+		(at 44.45 62.23)
+		(uuid "168150b3-a554-4706-a216-fb030596b041")
+	)
+	(no_connect
+		(at 44.45 44.45)
+		(uuid "17e9744f-c2aa-407f-b7c5-49b5654edb67")
+	)
+	(no_connect
+		(at 44.45 54.61)
+		(uuid "24343c33-e5ec-41f4-81fd-144cd3deccf7")
+	)
+	(no_connect
+		(at 44.45 49.53)
+		(uuid "4246006e-08b3-4df4-8fa8-d10182315df1")
+	)
+	(no_connect
+		(at 77.47 44.45)
+		(uuid "461e8c17-2e4a-4726-ae4b-edc3bffce548")
+	)
+	(no_connect
+		(at 44.45 67.31)
+		(uuid "4909ed85-6a38-4f1c-97c0-9198384dbcba")
+	)
+	(no_connect
+		(at 44.45 69.85)
+		(uuid "6af99998-31a1-4d1f-9a10-ecab11c8bcef")
+	)
+	(no_connect
 		(at 120.65 38.1)
 		(uuid "8b3b2cac-88bb-425a-af95-b0bb3fddff2e")
+	)
+	(no_connect
+		(at 77.47 69.85)
+		(uuid "ac86261f-45ad-4315-8756-30679195ea7c")
+	)
+	(no_connect
+		(at 77.47 46.99)
+		(uuid "bb1f8837-f4e7-4a84-b133-544c9d9fb5ff")
+	)
+	(no_connect
+		(at 77.47 41.91)
+		(uuid "bc81228f-96f3-4f59-a55b-681e5c56516e")
+	)
+	(no_connect
+		(at 77.47 57.15)
+		(uuid "ceb3ba48-9a7e-41ab-92b9-6c34f8c9c7ca")
+	)
+	(no_connect
+		(at 44.45 46.99)
+		(uuid "d7120865-6839-4990-b00b-a444f04d9a1c")
+	)
+	(no_connect
+		(at 77.47 54.61)
+		(uuid "e9a4c39d-62d5-486d-ac71-60fbe7e3ae9c")
+	)
+	(no_connect
+		(at 44.45 64.77)
+		(uuid "edfc3b27-a23a-46f0-aa27-bdc4b37c741b")
+	)
+	(no_connect
+		(at 44.45 52.07)
+		(uuid "f9a08c3c-6d40-410f-9d8b-7e20b074956b")
 	)
 	(wire
 		(pts
@@ -1505,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Teensy 4.0"
 			(at 60.96 57.15 0)
 			(effects
 				(font
