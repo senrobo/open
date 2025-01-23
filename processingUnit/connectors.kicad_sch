@@ -2290,10 +2290,6 @@
 		(uuid "df780f71-360a-4fe8-8878-908e50df1647")
 	)
 	(no_connect
-		(at 91.44 143.51)
-		(uuid "99c98289-bcbf-4dc8-968e-ef99c62b429d")
-	)
-	(no_connect
 		(at 91.44 161.29)
 		(uuid "b4391419-ccbf-4117-8d6a-3e6887a4a277")
 	)
@@ -2310,6 +2306,16 @@
 			(type default)
 		)
 		(uuid "17d44c08-66fc-4476-8ad4-d948cdd9bde8")
+	)
+	(wire
+		(pts
+			(xy 93.98 143.51) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d34c5f7-16df-48ba-936b-92b59faf22be")
 	)
 	(wire
 		(pts
@@ -2901,6 +2907,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FLAG"
+		(shape bidirectional)
+		(at 93.98 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25034f30-cc05-4e85-8814-cd26d6ca6f34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.5518 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
