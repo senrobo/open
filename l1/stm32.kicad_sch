@@ -2345,6 +2345,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 151.13) (xy 40.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042b8490-adc4-4f3e-bfd1-52b24b895857")
+	)
+	(wire
+		(pts
 			(xy 55.88 52.07) (xy 66.04 52.07)
 		)
 		(stroke
@@ -2605,16 +2615,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 133.35) (xy 111.76 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dbf1139-71f1-4545-a050-eb80acb73388")
-	)
-	(wire
-		(pts
 			(xy 71.12 99.06) (xy 52.07 99.06)
 		)
 		(stroke
@@ -2695,23 +2695,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 151.13) (xy 111.76 151.13)
+			(xy 96.52 148.59) (xy 111.76 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74f76eeb-17fc-4ed9-a899-a71a4452240d")
-	)
-	(wire
-		(pts
-			(xy 40.64 151.13) (xy 55.88 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c63ee33-739f-4447-b283-b8d6af9e122d")
 	)
 	(wire
 		(pts
@@ -2845,7 +2835,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 148.59) (xy 111.76 148.59)
+			(xy 111.76 133.35) (xy 96.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fd46c9-8cdb-4f83-8f61-275921d858ae")
+	)
+	(wire
+		(pts
+			(xy 96.52 151.13) (xy 111.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4412,9 +4412,21 @@
 		)
 		(uuid "0156a5e1-7355-4a8e-88dc-6c0cdcb074d8")
 	)
+	(hierarchical_label "M1 S2"
+		(shape output)
+		(at 40.64 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08fd8b92-4801-4aaf-85a9-6162b5fd5775")
+	)
 	(hierarchical_label "M2 S0"
 		(shape output)
-		(at 111.76 148.59 0)
+		(at 111.76 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4460,6 +4472,18 @@
 		)
 		(uuid "80bb20bb-01c1-414e-89e9-dc5e5202d9e0")
 	)
+	(hierarchical_label "M1 S3"
+		(shape output)
+		(at 111.76 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931cf813-2328-4123-a58b-d61723537523")
+	)
 	(hierarchical_label "M1 S1"
 		(shape output)
 		(at 111.76 158.75 0)
@@ -4484,21 +4508,9 @@
 		)
 		(uuid "b10ff6b4-f1fc-4668-954f-93bda95fa997")
 	)
-	(hierarchical_label "M1 S3"
-		(shape output)
-		(at 40.64 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cdd3de13-9159-4707-b0d2-fd7a91c919dd")
-	)
 	(hierarchical_label "M2 S1"
 		(shape output)
-		(at 111.76 151.13 0)
+		(at 111.76 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4507,18 +4519,6 @@
 			(justify left)
 		)
 		(uuid "d0bf5123-d131-4738-a21d-f2d10cd338ce")
-	)
-	(hierarchical_label "M1 S2"
-		(shape output)
-		(at 111.76 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9881b21-5856-406b-a2c1-5afd5bf47767")
 	)
 	(symbol
 		(lib_id "Device:C")
