@@ -1126,14 +1126,6 @@
 		(color 0 0 0 0)
 		(uuid "8aad0528-01de-45d0-a62c-1427b2901eae")
 	)
-	(no_connect
-		(at 113.03 109.22)
-		(uuid "0ff13c8b-bc25-47da-bef7-b2994119dd06")
-	)
-	(no_connect
-		(at 113.03 106.68)
-		(uuid "33b57429-aeee-469f-9e03-0e8165941e86")
-	)
 	(wire
 		(pts
 			(xy 83.82 105.41) (xy 83.82 110.49)
@@ -1223,6 +1215,16 @@
 			(type default)
 		)
 		(uuid "6f4506db-9e3f-467f-b5d1-17afcdd07e56")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858929f1-52d6-4a3c-a2bf-60208088c405")
 	)
 	(wire
 		(pts
@@ -1353,6 +1355,16 @@
 			(type default)
 		)
 		(uuid "df0507c2-352f-4d0b-9a48-6af48e43bc7f")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed05a35a-53ba-42c1-b054-119e19ab6df5")
 	)
 	(wire
 		(pts
@@ -2505,6 +2517,28 @@
 			"SDwPDQAAAMzQjPIfAAAAAOZN/wcA+KP/AuLjOUwBoSAUAAAAAElFTkSuQmCC"
 		)
 	)
+	(global_label "GATE RX"
+		(shape bidirectional)
+		(at 115.57 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03b00493-ffd8-4eba-9428-cf5c14d902f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5888 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU RST"
 		(shape bidirectional)
 		(at 115.57 99.06 0)
@@ -2672,6 +2706,28 @@
 		(uuid "cd8b2f3a-809b-45e6-b818-102b57f9c6cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.4067 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE TX"
+		(shape bidirectional)
+		(at 115.57 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10f896f-29fa-46f2-a5fd-3a9aee243676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2864 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
