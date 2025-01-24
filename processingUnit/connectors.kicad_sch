@@ -2289,13 +2289,15 @@
 		(color 0 0 0 0)
 		(uuid "df780f71-360a-4fe8-8878-908e50df1647")
 	)
-	(no_connect
-		(at 91.44 161.29)
-		(uuid "b4391419-ccbf-4117-8d6a-3e6887a4a277")
-	)
-	(no_connect
-		(at 91.44 158.75)
-		(uuid "ef4d647c-130f-438e-bf49-b1aa7989921e")
+	(wire
+		(pts
+			(xy 91.44 158.75) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db9f146-a1d2-49dc-80cd-c6068f35d807")
 	)
 	(wire
 		(pts
@@ -2436,6 +2438,16 @@
 			(type default)
 		)
 		(uuid "5a3a24ac-2792-47cb-a044-ab9b4a0aff47")
+	)
+	(wire
+		(pts
+			(xy 91.44 161.29) (xy 93.98 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3519c5-af3b-470c-86d7-2d99d91a4f6b")
 	)
 	(wire
 		(pts
@@ -2977,6 +2989,28 @@
 			)
 		)
 	)
+	(global_label "GATE RX"
+		(shape bidirectional)
+		(at 93.98 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99d95921-5172-4c42-9f50-1170d88cb768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9988 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAM TX"
 		(shape bidirectional)
 		(at 49.53 97.79 0)
@@ -3078,6 +3112,28 @@
 		(uuid "baf1ba33-d7bc-4f5c-875f-4d1afa235fb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.1579 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GATE TX"
+		(shape bidirectional)
+		(at 93.98 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bde68ff3-84db-4aa9-900c-4415a38bc72a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6964 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
