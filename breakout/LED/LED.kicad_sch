@@ -578,6 +578,28 @@
 		(color 0 0 0 0)
 		(uuid "5e412d6d-d313-4816-bdca-377441d1700b")
 	)
+	(junction
+		(at 115.57 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a21cf2bc-533c-4c36-a2e0-d307eb2f4c50")
+	)
+	(junction
+		(at 115.57 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d89c93d3-4953-458b-8319-1f59338779f1")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc71fd5-4339-4a0a-91f7-e8cd98cf0a7c")
+	)
 	(wire
 		(pts
 			(xy 102.87 102.87) (xy 102.87 105.41)
@@ -637,6 +659,86 @@
 			(type default)
 		)
 		(uuid "b7d9aa89-aeaa-40a6-85a0-da3f7e514c6f")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56ff445-a97d-45f0-9bb5-cb371831a8b6")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 125.73 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7308fb-b939-491e-8b2a-bc95479b5f29")
+		(property "Reference" "D2"
+			(at 129.54 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 129.54 104.4574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:led2835"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c9c4c1d-81d9-4666-955d-d432de04202c")
+		)
+		(pin "2"
+			(uuid "2d5d8d56-3bb6-4803-b201-937d158e9fc7")
+		)
+		(instances
+			(project "LED"
+				(path "/8cf4ec00-333f-4aee-b78a-946008246dc9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
