@@ -1804,6 +1804,19 @@
 		(layer "Edge.Cuts")
 		(uuid "ddc54891-1deb-4468-8622-dd06b9550fe3")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 124.200001 111.930173 0)
+		(layer "F.SilkS")
+		(uuid "7830d82d-1a40-4333-a716-81900818d867")
+		(effects
+			(font
+				(size 1.3 1.3)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(zone
 		(net 1)
 		(net_name "+24V")
