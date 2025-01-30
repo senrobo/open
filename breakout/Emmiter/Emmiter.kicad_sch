@@ -1564,7 +1564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:DIO_VSMB2020X01"
 			(at 92.71 69.85 0)
 			(effects
 				(font
