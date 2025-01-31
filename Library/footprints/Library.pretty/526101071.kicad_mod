@@ -326,7 +326,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0de7d470-f1b2-497b-a2d3-8f64da4300df")
 	)
-	(model "${KIPRJMOD}/3dmodels/526101071.stp"
+	(model "C:/Users/dread/OneDrive/Documents/GitHub/open/Library/3dmodels/52610-1071.step"
 		(offset
 			(xyz 0 -1.75 0)
 		)
