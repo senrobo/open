@@ -4035,7 +4035,6 @@
 	)
 	(label "GATE SWDIO"
 		(at 55.88 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4046,7 +4045,6 @@
 	)
 	(label "GATE SWCLK"
 		(at 86.36 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4057,7 +4055,6 @@
 	)
 	(label "SIGNAL 2"
 		(at 67.31 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,7 +4065,6 @@
 	)
 	(label "LDR2"
 		(at 224.79 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4079,7 +4075,6 @@
 	)
 	(label "GATE SWCLK"
 		(at 55.88 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4090,7 +4085,6 @@
 	)
 	(label "MCU2 LED"
 		(at 125.73 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4101,7 +4095,6 @@
 	)
 	(label "MCU BOOT0"
 		(at 116.84 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4112,7 +4105,6 @@
 	)
 	(label "SIGNAL"
 		(at 111.76 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4123,7 +4115,6 @@
 	)
 	(label "LDR1"
 		(at 113.03 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,7 +4125,6 @@
 	)
 	(label "PULSE 2"
 		(at 189.23 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4145,7 +4135,6 @@
 	)
 	(label "MCU1 OSC IN"
 		(at 67.31 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4156,7 +4145,6 @@
 	)
 	(label "PULSE"
 		(at 111.76 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4167,7 +4155,6 @@
 	)
 	(label "PULSE 2"
 		(at 67.31 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4178,7 +4165,6 @@
 	)
 	(label "SIGNAL 2"
 		(at 220.98 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4189,7 +4175,6 @@
 	)
 	(label "SIGNAL"
 		(at 222.25 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4185,6 @@
 	)
 	(label "PULSE"
 		(at 191.77 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4211,7 +4195,6 @@
 	)
 	(label "GATE SWDIO"
 		(at 86.36 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4222,7 +4205,6 @@
 	)
 	(label "LDR1"
 		(at 224.79 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4233,7 +4215,6 @@
 	)
 	(label "MCU1 OSC OUT"
 		(at 67.31 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4244,7 +4225,6 @@
 	)
 	(label "LDR2"
 		(at 64.77 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

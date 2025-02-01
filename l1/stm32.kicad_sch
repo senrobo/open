@@ -4226,7 +4226,6 @@
 	)
 	(label "MCU BOOT0"
 		(at 104.14 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4237,7 +4236,6 @@
 	)
 	(label "MCU1 OSC IN"
 		(at 54.61 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4248,7 +4246,6 @@
 	)
 	(label "MCU1 LED"
 		(at 113.03 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,7 +4256,6 @@
 	)
 	(label "MCU1 OSC OUT"
 		(at 54.61 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4403,7 +4399,6 @@
 	(hierarchical_label "M2 S3"
 		(shape output)
 		(at 111.76 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4410,6 @@
 	(hierarchical_label "M1 S2"
 		(shape output)
 		(at 40.64 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4421,6 @@
 	(hierarchical_label "M2 S0"
 		(shape output)
 		(at 111.76 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4432,6 @@
 	(hierarchical_label "M1 S0"
 		(shape output)
 		(at 111.76 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4443,6 @@
 	(hierarchical_label "M1"
 		(shape input)
 		(at 111.76 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4463,7 +4454,6 @@
 	(hierarchical_label "M2 S2"
 		(shape output)
 		(at 111.76 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,7 +4465,6 @@
 	(hierarchical_label "M1 S3"
 		(shape output)
 		(at 111.76 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4487,7 +4476,6 @@
 	(hierarchical_label "M1 S1"
 		(shape output)
 		(at 111.76 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,7 +4487,6 @@
 	(hierarchical_label "M2"
 		(shape input)
 		(at 40.64 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,7 +4498,6 @@
 	(hierarchical_label "M2 S1"
 		(shape output)
 		(at 111.76 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

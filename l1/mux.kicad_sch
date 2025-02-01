@@ -3769,7 +3769,6 @@
 	(hierarchical_label "M2 S3"
 		(shape input)
 		(at 201.93 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3781,7 +3780,6 @@
 	(hierarchical_label "M1 S0"
 		(shape input)
 		(at 101.6 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3793,7 +3791,6 @@
 	(hierarchical_label "M2 S2"
 		(shape input)
 		(at 199.39 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3805,7 +3802,6 @@
 	(hierarchical_label "M2"
 		(shape output)
 		(at 179.07 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3817,7 +3813,6 @@
 	(hierarchical_label "M2 S0"
 		(shape input)
 		(at 194.31 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3824,6 @@
 	(hierarchical_label "M1"
 		(shape output)
 		(at 86.36 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3841,7 +3835,6 @@
 	(hierarchical_label "M2 S1"
 		(shape input)
 		(at 196.85 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +3846,6 @@
 	(hierarchical_label "M1 S3"
 		(shape input)
 		(at 109.22 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3865,7 +3857,6 @@
 	(hierarchical_label "M1 S2"
 		(shape input)
 		(at 106.68 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3877,7 +3868,6 @@
 	(hierarchical_label "M1 S1"
 		(shape input)
 		(at 104.14 115.57 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
