@@ -4870,17 +4870,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 33.02 63.5 0)
-		(mirror y)
+		(at 33.02 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70be356b-98c2-4f4d-81e1-3a7cda49698d")
 		(property "Reference" "J101"
-			(at 33.02 52.07 0)
+			(at 33.02 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4886,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 33.02 54.61 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
