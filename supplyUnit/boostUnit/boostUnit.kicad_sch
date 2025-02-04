@@ -7569,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SON50P200X200X100-9N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 66.04 0)
 			(effects
 				(font

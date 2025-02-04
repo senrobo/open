@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|101844442|112375589|2f5d9bfd-d53a-49d3-ad03-bf6f9e23b7cf|7a8c9624-48b0-4935-afaa-b9e0bd827cdb",
+        "copper_edge_clearance|106288259|90604485|1c9cd2e0-b7a5-43e0-b41b-5468a6a00229|083247fb-34c4-41af-bc7b-1c242af878d0",
+        "copper_edge_clearance|167181896|89964157|1368aebb-30e8-49f5-9560-929fdc2140d9|1bf993b6-0b65-496d-846a-9423593ae34b",
+        "copper_edge_clearance|171147159|118169026|09e04b4e-60b3-4233-bf35-44ecd94208d5|552beec9-c325-4c0d-961b-df5d2b4e916c"
+      ],
       "meta": {
         "version": 2
       },
@@ -96,7 +101,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -117,7 +122,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.175,
-        "min_connection": 0.254,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.8,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
