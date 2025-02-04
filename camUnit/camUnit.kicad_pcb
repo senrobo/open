@@ -203,6 +203,7 @@
 	(net 75 "/TOF/TOF PWR")
 	(net 76 "unconnected-(SW3-C-Pad3)")
 	(footprint "Library:OpenMV_RT"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0e29b010-8c36-4284-bccf-4f9797b83730")
 		(at 137.180978 101.383123)
