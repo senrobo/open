@@ -1904,7 +1904,6 @@
 	)
 	(label "CAM PWR"
 		(at 163.83 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1915,7 +1914,6 @@
 	)
 	(label "CAM PWR"
 		(at 185.42 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1926,7 +1924,6 @@
 	)
 	(label "CAM RST"
 		(at 165.1 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-AM_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
 			(at 22.86 50.8 0)
 			(effects
 				(font
