@@ -2568,7 +2568,6 @@
 	)
 	(label "BT PWR"
 		(at 140.97 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2579,7 +2578,6 @@
 	)
 	(label "BT PWR"
 		(at 204.47 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,7 +2588,6 @@
 	)
 	(label "TEENSY PWR"
 		(at 146.05 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,7 +2598,6 @@
 	)
 	(label "TEENSY PWR"
 		(at 204.47 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,7 +2873,6 @@
 	(hierarchical_label "BT RX"
 		(shape bidirectional)
 		(at 153.67 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,7 +2884,6 @@
 	(hierarchical_label "TNSY MISO"
 		(shape input)
 		(at 104.14 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2901,7 +2895,6 @@
 	(hierarchical_label "TNSY MOSI"
 		(shape output)
 		(at 104.14 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,7 +2906,6 @@
 	(hierarchical_label "BT TX"
 		(shape bidirectional)
 		(at 153.67 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2925,7 +2917,6 @@
 	(hierarchical_label "BT RX"
 		(shape bidirectional)
 		(at 143.51 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,7 +2928,6 @@
 	(hierarchical_label "ENC NSS"
 		(shape output)
 		(at 104.14 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2949,7 +2939,6 @@
 	(hierarchical_label "BT TX"
 		(shape bidirectional)
 		(at 115.57 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,7 +2950,6 @@
 	(hierarchical_label "TNSY SCK"
 		(shape output)
 		(at 153.67 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2973,7 +2961,6 @@
 	(hierarchical_label "IMU STM NSS"
 		(shape output)
 		(at 104.14 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
