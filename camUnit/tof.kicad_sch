@@ -6977,7 +6977,6 @@
 	)
 	(label "TOF SWDIO"
 		(at 44.45 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6988,7 +6987,6 @@
 	)
 	(label "TOF SDA"
 		(at 189.23 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6999,7 +6997,6 @@
 	)
 	(label "TOF4"
 		(at 102.87 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7010,7 +7007,6 @@
 	)
 	(label "TOF LED"
 		(at 44.45 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7021,7 +7017,6 @@
 	)
 	(label "TOF SDA"
 		(at 157.48 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7032,7 +7027,6 @@
 	)
 	(label "TOF3"
 		(at 102.87 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7043,7 +7037,6 @@
 	)
 	(label "TOF2"
 		(at 157.48 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7054,7 +7047,6 @@
 	)
 	(label "TOF SCL"
 		(at 157.48 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7065,7 +7057,6 @@
 	)
 	(label "TOF PWR"
 		(at 189.23 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7076,7 +7067,6 @@
 	)
 	(label "TOF SCL"
 		(at 189.23 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7087,7 +7077,6 @@
 	)
 	(label "TOF SWDIO"
 		(at 101.6 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7098,7 +7087,6 @@
 	)
 	(label "TOF1"
 		(at 157.48 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7109,7 +7097,6 @@
 	)
 	(label "TOF SWCLK"
 		(at 44.45 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7120,7 +7107,6 @@
 	)
 	(label "TOF PWR"
 		(at 189.23 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7131,7 +7117,6 @@
 	)
 	(label "TOF SCL"
 		(at 102.87 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7142,7 +7127,6 @@
 	)
 	(label "TOF PWR"
 		(at 157.48 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7153,7 +7137,6 @@
 	)
 	(label "ENC BOOT0"
 		(at 97.79 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7164,7 +7147,6 @@
 	)
 	(label "TOF SCL"
 		(at 157.48 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7175,7 +7157,6 @@
 	)
 	(label "ENC OSC IN"
 		(at 48.26 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7186,7 +7167,6 @@
 	)
 	(label "TOF1"
 		(at 102.87 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7197,7 +7177,6 @@
 	)
 	(label "TOF4"
 		(at 189.23 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7208,7 +7187,6 @@
 	)
 	(label "TOF SCL"
 		(at 189.23 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,7 +7197,6 @@
 	)
 	(label "ENC RST"
 		(at 97.79 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7230,7 +7207,6 @@
 	)
 	(label "TOF SWCLK"
 		(at 101.6 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7241,7 +7217,6 @@
 	)
 	(label "TOF SDA"
 		(at 189.23 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7252,7 +7227,6 @@
 	)
 	(label "TOF2"
 		(at 102.87 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7263,7 +7237,6 @@
 	)
 	(label "TOF SDA"
 		(at 102.87 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7274,7 +7247,6 @@
 	)
 	(label "TOF PWR"
 		(at 182.88 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7285,7 +7257,6 @@
 	)
 	(label "TOF PWR"
 		(at 157.48 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7296,7 +7267,6 @@
 	)
 	(label "ENC OSC OUT"
 		(at 48.26 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7307,7 +7277,6 @@
 	)
 	(label "TOF SDA"
 		(at 157.48 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7318,7 +7287,6 @@
 	)
 	(label "TOF3"
 		(at 189.23 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
