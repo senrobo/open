@@ -583,19 +583,19 @@
 		(at 64.77 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a89a25e8-e716-477c-ad95-7f5b549a7fb9")
+		(uuid "71bfd58c-8f71-46ac-bbed-4f203f1dd788")
+	)
+	(junction
+		(at 64.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a185fd-e0de-40e3-9e10-0527ebefb1b4")
 	)
 	(junction
 		(at 86.36 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c72bdf40-7038-4884-8b51-d9d262ab2ba5")
-	)
-	(junction
-		(at 64.77 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c865365b-7271-4795-84ea-75f7d76ff8d4")
 	)
 	(junction
 		(at 72.39 74.93)
@@ -621,7 +621,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1d5f1128-a702-4347-8348-a108c37dc707")
+		(uuid "12c6d724-25dc-4601-b966-ff6e81e8f313")
+	)
+	(wire
+		(pts
+			(xy 64.77 74.93) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15720178-d5a3-4285-9e28-21016d303d75")
 	)
 	(wire
 		(pts
@@ -705,23 +715,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 72.39 74.93)
+			(xy 64.77 80.01) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcdfa076-9c46-42d7-9bf7-23950c13df90")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 64.77 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd702247-52de-4b63-9f64-863bff41faeb")
+		(uuid "dc3045c0-cf9c-47e0-8e0b-fe646a88f7a9")
 	)
 	(symbol
 		(lib_id "power:GNDREF")
@@ -791,8 +791,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 59.69 77.47 0)
-		(mirror y)
+		(at 59.69 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -800,7 +799,7 @@
 		(dnp no)
 		(uuid "25b5a78e-edb1-49f2-a829-bf67d9053a6d")
 		(property "Reference" "J1"
-			(at 59.69 71.12 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +807,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 58.166 73.66 0)
+			(at 58.166 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +815,7 @@
 			)
 		)
 		(property "Footprint" "Library:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 59.69 77.47 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 77.47 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +833,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 77.47 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,10 +1188,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f5340a1-f8be-4bd5-884e-6b0f99a9aab8")
+			(uuid "8f5340a1-f8be-4bd5-884e-6b0f99a9aab9")
 		)
 		(pin "2"
-			(uuid "fefba4c0-7701-4764-b8e7-e011166eb02e")
+			(uuid "fefba4c0-7701-4764-b8e7-e011166eb02f")
 		)
 		(instances
 			(project "Capacitor Bank"
