@@ -1957,6 +1957,10 @@
 		(uuid "1db0692c-1500-466e-88d3-95bd2a069992")
 	)
 	(no_connect
+		(at 113.03 125.73)
+		(uuid "34ea5fe0-e02e-4088-871c-05e329f4afc3")
+	)
+	(no_connect
 		(at 120.65 148.59)
 		(uuid "3cb25a9b-7520-47af-8817-57625e436a22")
 	)
@@ -1987,10 +1991,6 @@
 	(no_connect
 		(at 146.05 107.95)
 		(uuid "a33ccd1e-e4e0-4d0c-b7f0-7dc8788d7dbd")
-	)
-	(no_connect
-		(at 113.03 110.49)
-		(uuid "a6bb1951-11e6-4d12-ad57-dd874249c40c")
 	)
 	(no_connect
 		(at 146.05 118.11)
@@ -2268,16 +2268,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 125.73) (xy 104.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6820c346-f044-4d33-8afd-8f1662fb1b81")
-	)
-	(wire
-		(pts
 			(xy 120.65 163.83) (xy 115.57 163.83)
 		)
 		(stroke
@@ -2305,6 +2295,16 @@
 			(type default)
 		)
 		(uuid "76926130-19ea-4ce4-b3b0-85917ac43a0a")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 104.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f55d93-d776-446f-8afd-b381c051ee0d")
 	)
 	(wire
 		(pts
@@ -2568,6 +2568,7 @@
 	)
 	(label "BT PWR"
 		(at 140.97 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,6 +2579,7 @@
 	)
 	(label "BT PWR"
 		(at 204.47 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,6 +2590,7 @@
 	)
 	(label "TEENSY PWR"
 		(at 146.05 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2598,6 +2601,7 @@
 	)
 	(label "TEENSY PWR"
 		(at 204.47 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2619,28 +2623,6 @@
 		(uuid "0b31bb36-9f77-4b3a-be49-1d9e7e50f5d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.3954 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESC2"
-		(shape bidirectional)
-		(at 104.14 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17ca75d3-0d97-44b4-9c23-9e1da4c8ff77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2055 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,6 +2742,28 @@
 			)
 		)
 	)
+	(global_label "ESC2"
+		(shape bidirectional)
+		(at 104.14 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85bc4ce6-244a-4f04-9540-164ef80dafe1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2055 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GATE TX"
 		(shape bidirectional)
 		(at 154.94 113.03 0)
@@ -2873,6 +2877,7 @@
 	(hierarchical_label "BT RX"
 		(shape bidirectional)
 		(at 153.67 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2884,6 +2889,7 @@
 	(hierarchical_label "TNSY MISO"
 		(shape input)
 		(at 104.14 130.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2895,6 +2901,7 @@
 	(hierarchical_label "TNSY MOSI"
 		(shape output)
 		(at 104.14 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,6 +2913,7 @@
 	(hierarchical_label "BT TX"
 		(shape bidirectional)
 		(at 153.67 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,6 +2925,7 @@
 	(hierarchical_label "BT RX"
 		(shape bidirectional)
 		(at 143.51 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2928,6 +2937,7 @@
 	(hierarchical_label "ENC NSS"
 		(shape output)
 		(at 104.14 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2939,6 +2949,7 @@
 	(hierarchical_label "BT TX"
 		(shape bidirectional)
 		(at 115.57 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2950,6 +2961,7 @@
 	(hierarchical_label "TNSY SCK"
 		(shape output)
 		(at 153.67 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,6 +2973,7 @@
 	(hierarchical_label "IMU STM NSS"
 		(shape output)
 		(at 104.14 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

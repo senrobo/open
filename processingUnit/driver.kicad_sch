@@ -4198,6 +4198,7 @@
 	)
 	(label "M SW"
 		(at 144.78 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4208,6 +4209,7 @@
 	)
 	(label "M SW"
 		(at 48.26 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4218,6 +4220,7 @@
 	)
 	(label "M SW"
 		(at 154.94 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4228,6 +4231,7 @@
 	)
 	(label "M SW"
 		(at 48.26 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4238,6 +4242,7 @@
 	)
 	(label "M SW"
 		(at 154.94 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4248,6 +4253,7 @@
 	)
 	(label "CPM2"
 		(at 214.63 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4258,6 +4264,7 @@
 	)
 	(label "CPM1"
 		(at 107.95 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4268,6 +4275,7 @@
 	)
 	(label "M SW"
 		(at 154.94 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4278,6 +4286,7 @@
 	)
 	(label "M SW"
 		(at 48.26 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,6 +4297,7 @@
 	)
 	(label "M SW"
 		(at 154.94 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4298,6 +4308,7 @@
 	)
 	(label "M SW"
 		(at 48.26 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4308,6 +4319,7 @@
 	)
 	(label "CPM3"
 		(at 107.95 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4318,6 +4330,7 @@
 	)
 	(label "CPM4"
 		(at 214.63 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,6 +4342,7 @@
 	(hierarchical_label "M1 IN B"
 		(shape input)
 		(at 46.99 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4340,6 +4354,7 @@
 	(hierarchical_label "M4 OUT A"
 		(shape output)
 		(at 209.55 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4351,6 +4366,7 @@
 	(hierarchical_label "M3 IN B"
 		(shape input)
 		(at 46.99 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4362,6 +4378,7 @@
 	(hierarchical_label "M3 IN A"
 		(shape input)
 		(at 46.99 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4373,6 +4390,7 @@
 	(hierarchical_label "M4 OUT B"
 		(shape output)
 		(at 209.55 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4384,6 +4402,7 @@
 	(hierarchical_label "M4 IN A"
 		(shape input)
 		(at 153.67 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,6 +4414,7 @@
 	(hierarchical_label "M3 PWM"
 		(shape input)
 		(at 46.99 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4406,6 +4426,7 @@
 	(hierarchical_label "M2 OUT A"
 		(shape output)
 		(at 209.55 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,6 +4438,7 @@
 	(hierarchical_label "M4 PWM"
 		(shape input)
 		(at 153.67 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,6 +4450,7 @@
 	(hierarchical_label "M1 IN A"
 		(shape input)
 		(at 46.99 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,6 +4462,7 @@
 	(hierarchical_label "M2 IN A"
 		(shape input)
 		(at 153.67 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4450,6 +4474,7 @@
 	(hierarchical_label "M1 OUT B"
 		(shape output)
 		(at 102.87 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4461,6 +4486,7 @@
 	(hierarchical_label "M3 OUT A"
 		(shape output)
 		(at 102.87 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4472,6 +4498,7 @@
 	(hierarchical_label "M2 PWM"
 		(shape input)
 		(at 153.67 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4483,6 +4510,7 @@
 	(hierarchical_label "M2 OUT B"
 		(shape output)
 		(at 209.55 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4494,6 +4522,7 @@
 	(hierarchical_label "M3 OUT B"
 		(shape output)
 		(at 102.87 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4505,6 +4534,7 @@
 	(hierarchical_label "M1 PWM"
 		(shape input)
 		(at 46.99 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4516,6 +4546,7 @@
 	(hierarchical_label "M4 IN B"
 		(shape input)
 		(at 153.67 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4527,6 +4558,7 @@
 	(hierarchical_label "M2 IN B"
 		(shape input)
 		(at 153.67 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,6 +4570,7 @@
 	(hierarchical_label "M1 OUT A"
 		(shape output)
 		(at 102.87 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
