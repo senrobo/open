@@ -5021,12 +5021,6 @@
 		(uuid "3ee0ad69-0643-4c15-adbe-470552e0c7ea")
 	)
 	(junction
-		(at 137.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "403bdad3-89f3-451f-9cca-324c6bfb9ed1")
-	)
-	(junction
 		(at 62.23 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5920,16 +5914,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 137.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b46b13f-abc4-4c64-a0a0-9a33d3ce1e47")
-	)
-	(wire
-		(pts
 			(xy 106.68 55.88) (xy 109.22 55.88)
 		)
 		(stroke
@@ -6614,7 +6598,6 @@
 	)
 	(label "IMU SWDIO"
 		(at 76.2 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6625,7 +6608,6 @@
 	)
 	(label "IMU SWCLK"
 		(at 76.2 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6636,7 +6618,6 @@
 	)
 	(label "IMU RST"
 		(at 171.45 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6647,7 +6628,6 @@
 	)
 	(label "IMU MISO"
 		(at 220.98 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6658,7 +6638,6 @@
 	)
 	(label "IMU OSC OUT"
 		(at 49.53 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,7 +6648,6 @@
 	)
 	(label "IMU INT"
 		(at 220.98 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6680,7 +6658,6 @@
 	)
 	(label "IMU BOOT0"
 		(at 99.06 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6691,7 +6668,6 @@
 	)
 	(label "IMU SCK"
 		(at 171.45 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6702,7 +6678,6 @@
 	)
 	(label "IMU OSC IN"
 		(at 49.53 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6713,7 +6688,6 @@
 	)
 	(label "IMU SCK"
 		(at 220.98 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6724,7 +6698,6 @@
 	)
 	(label "IMU NSS"
 		(at 171.45 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6735,7 +6708,6 @@
 	)
 	(label "IMU NSS"
 		(at 220.98 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6746,7 +6718,6 @@
 	)
 	(label "IMU SWDIO"
 		(at 39.37 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6757,7 +6728,6 @@
 	)
 	(label "IMU MISO"
 		(at 171.45 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6768,7 +6738,6 @@
 	)
 	(label "IMU MOSI"
 		(at 220.98 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +6748,6 @@
 	)
 	(label "IMU RST"
 		(at 99.06 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6790,7 +6758,6 @@
 	)
 	(label "IMU RST"
 		(at 269.24 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6801,7 +6768,6 @@
 	)
 	(label "IMU SWCLK"
 		(at 39.37 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +6778,6 @@
 	)
 	(label "IMU MOSI"
 		(at 171.45 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6823,7 +6788,6 @@
 	)
 	(label "IMU INT"
 		(at 171.45 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6834,7 +6798,6 @@
 	)
 	(label "IMU LED"
 		(at 39.37 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6846,7 +6809,6 @@
 	(hierarchical_label "TNSY MOSI"
 		(shape input)
 		(at 38.1 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +6820,6 @@
 	(hierarchical_label "TNSY SCK"
 		(shape input)
 		(at 38.1 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6870,7 +6831,6 @@
 	(hierarchical_label "TNSY MISO"
 		(shape output)
 		(at 38.1 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6882,7 +6842,6 @@
 	(hierarchical_label "IMU STM NSS"
 		(shape input)
 		(at 38.1 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7235,72 +7194,6 @@
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
 					(reference "U301")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 137.16 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e505a5-96a9-4c1b-9d7b-bbc3dc28c967")
-		(property "Reference" "#PWR0303"
-			(at 137.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3 FILT"
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d57803e1-b991-4aa8-8756-e480ea1ab12c")
-		)
-		(instances
-			(project "l3"
-				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/65597bc7-5aaa-4f27-9286-e75eee7edae8"
-					(reference "#PWR0303")
-					(unit 1)
 				)
 			)
 		)
