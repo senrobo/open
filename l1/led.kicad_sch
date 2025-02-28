@@ -3525,7 +3525,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADURrk1AOkH"
+			"gOaWsOe0sOaYjumrlC1FeHRCAAAAAAAAANJGtzUA6geAAAAAAAAAAAAX3WpLAAAAAND6DsFFAgAA"
+			"0Ea1NQDrB4BNYWxndW4gR290aGljIFNlbWlsaWdodAAuWbM1AOwHgAAAAAAAAAAAh/yHOQAAAADw"
+			"+g7BRQIAACxZsTUA7QeABgAAABAAAACAuMz//////wAAAAAAAAAAKlmvNQDuB4BNaW5nTGlVLUV4"
+			"dEIAAAAAAAAAAAAAAAAoWa01AO8HgJAXFMFFAgAAmhvj6wAAAABw/A7BRQIAACZZqzUA8AeAzprO"
+			"sc69zr/Ovc65zrrOrAAAAAAAAAAAJFmpNQDxB4BNeWFubWFyIFRleHQAAAAAAAAAAAAAAAAiWac1"
+			"APIHgE1hbGd1biBHb3RoaWMAAAAAAAAAAAAAACBZpTUA8weATm9ybWFhbGkAAAAAAAAAAAAAAAAA"
+			"AAAAPlmjNQD0B4Drp5HsnYAg6rOg65SVAAAAAAAAAAAAAAA8WaE1APUHgE1hbGd1biBHb3RoaWMA"
+			"AAAAAAAAAAAAADpZXyoA9geA66eR7J2AIOqzoOuUlQAAAAAAAAAAAAAAOFldKgD3B4Drp5HsnYAg"
+			"6rOg65SVIFNlbWlsaWdodAA2WVsqAPgHgFBNaW5nTGlVLUV4dEIAAAAAAAAAAAAAADRZWSoA+QeA"
+			"AAAAAAAAAAAczw3pAAAAAJD8DsFFAgAAMllXKgD6B4BTZW1pbGlnaHQAAAAAAAAAAAAAAAAAAAAw"
+			"WVUqAPsHgFN0YW5kYWFyZAAAAAAAAAAAAAAAAAAAAA5ZUyoA/AeABgAAABAAAAAwfMz//////wAA"
+			"AAAAAAAADFlRKgD9B4AAAAAAAAAAABFZt0sAAAAAMP0OwUUCAAAKWU8qAP4HgNCe0LHRi9GH0L3R"
+			"i9C5AAAAAAAAAAAAAAhZTSoA/weATm9ybWFsbnkAAAAAAAAAAAAAAAAAAAAABllLKgAACIAAAAAA"
+			"AAAAANrV484AAAAAUAUPwUUCAAAEWUkqAAEIgNCe0LHRi9GH0L3Ri9C5AAAAAAAAAAAAAAJZRyoA"
+			"AgiAzprOsc69zr/Ovc65zrrOrAAAAAAAAAAAAFlFKgADCIDOiM69z4TOv869zrEAAAAAAAAAAAAA"
+			"AAAeWUMqAAQIgEbDqWxrw7Z2w6lyAAAAAAAAAAAAAAAAABxZQSoABQiABgAAABAAAADweMz/////"
+			"/wAAAAAAAAAAGll/KgAGCIDQn9C+0LvRg9C20LjRgNC90YvQuQAAAAAYWX0qAAcIgAAAAAAAAAAA"
+			"3h4KRwAAAAAwCg/BRQIAABZZeyoACAiAAAAAAAAAAADoAaMdAAAAADAFDw=="
 		)
 	)
 	(symbol
@@ -3757,7 +3775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 237.49 135.8899 0)
 			(effects
 				(font
@@ -3827,7 +3845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 196.85 87.6299 0)
 			(effects
 				(font
@@ -3963,7 +3981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 196.85 113.0299 0)
 			(effects
 				(font
@@ -4173,7 +4191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 176.53 135.8899 0)
 			(effects
 				(font
@@ -4243,7 +4261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 237.49 87.6299 0)
 			(effects
 				(font
@@ -4733,7 +4751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 207.01 113.0299 0)
 			(effects
 				(font
@@ -4803,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 156.21 135.8899 0)
 			(effects
 				(font
@@ -4873,7 +4891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 176.53 113.0299 0)
 			(effects
 				(font
@@ -4943,7 +4961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 186.69 87.6299 0)
 			(effects
 				(font
@@ -5083,7 +5101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 207.01 87.6299 0)
 			(effects
 				(font
@@ -5153,7 +5171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 227.33 87.6299 0)
 			(effects
 				(font
@@ -5223,7 +5241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 156.21 87.6299 0)
 			(effects
 				(font
@@ -5503,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 227.33 113.0299 0)
 			(effects
 				(font
@@ -5780,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 247.65 135.8899 0)
 			(effects
 				(font
@@ -5850,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 227.33 135.8899 0)
 			(effects
 				(font
@@ -5920,7 +5938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 166.37 113.0299 0)
 			(effects
 				(font
@@ -6200,7 +6218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 217.17 87.6299 0)
 			(effects
 				(font
@@ -6270,7 +6288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 186.69 135.8899 0)
 			(effects
 				(font
@@ -6340,7 +6358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 166.37 87.6299 0)
 			(effects
 				(font
@@ -6410,7 +6428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 156.21 113.0299 0)
 			(effects
 				(font
@@ -6550,7 +6568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 196.85 135.8899 0)
 			(effects
 				(font
@@ -6620,7 +6638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 186.69 113.0299 0)
 			(effects
 				(font
@@ -6690,7 +6708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 176.53 87.6299 0)
 			(effects
 				(font
@@ -6900,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 207.01 135.8899 0)
 			(effects
 				(font
@@ -6970,7 +6988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 166.37 135.8899 0)
 			(effects
 				(font
@@ -7040,7 +7058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 247.65 113.0299 0)
 			(effects
 				(font
@@ -7180,7 +7198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 237.49 113.0299 0)
 			(effects
 				(font
@@ -7530,7 +7548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 217.17 135.8899 0)
 			(effects
 				(font
@@ -7670,7 +7688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 217.17 113.0299 0)
 			(effects
 				(font
@@ -7740,7 +7758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0.39R"
 			(at 247.65 87.6299 0)
 			(effects
 				(font
