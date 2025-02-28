@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c8d4270f-c31c-422e-a2aa-f52062ff4033")
 	(paper "A4")
 	(title_block
@@ -1240,12 +1240,34 @@
 			"JVkHF1ufnpMGAACAGZH/AAAAAMAs6f8AQAcWnACgo6o6TXK6/nW1/tz+myLMeGwHF3frn2QTXty1"
 			"1u4CAAAAsEX+AwAAAACjof8DACNmwQkAJqKqVlu/bn8/S3K8/n6c5MOBRpq6p2eik81z0U9unr54"
 			"NhoAAAA4FPkPAAAAALyK/g8AzIgFJwCYsao6zlCA2bZdiHlyms3V4OfGcEV4+3rKc3fZXFN58jyw"
-			"SDwPDQAAAMzQjPIfAAAAAOZN/wcA+KP/AuLjOUwBoSAUAAAAAElFTkSuQmCC"
+			"SDwPDQAAAMzQjPIfAAAAAOZN/wcA+KP/AuLjOUwBoSAUAAAAAElFTkSuQmCCTwvXogEAAMWdjakA"
+			"yQeAAAAAAAAAAADewnqxADMFgPBKC9eiAQAAw52DqQDKB4AAAAAAAAAAAOMP67QAAAAAEE4L16IB"
+			"AADBnYGpAMsHgAYAAAAQAAAAwKL3//////8AAAAAAAAAAN+dh6kAzAeABgAAABAAAACQw/f/////"
+			"/wAAAAAAAAAA3Z2FqQDNB4AAAAAAAAAAAEewABQAAAAAUEsL16IBAADbnZupAM4HgAYAAAAQAAAA"
+			"cJL3//////8AAAAAAAAAANmdmakAzweAAAAAAAAAAABiZNhfADcFgPBMC9eiAQAA152fqQDQB4AA"
+			"AAAAAAAAAOMP57cAAAAAME4L16IBAADVnZ2pANEHgAAAAAAAAAAAF6ABFAAAAABQTAvXogEAANOd"
+			"k6kA0geABgAAABAAAAAQg/f//////wAAAAAAAAAA0Z2RqW/TB4BTbWFsbCBGb250cwBsaWMudHRm"
+			"AAAAAACvnZepANQHgAAAAAAAAAAADfL7sm9udHNwUAvXogEAAK2dlals1QeATVMgU2VyaWYAneqp"
+			"ADsFgAAAAAAAAAAAq53rqQDWB4AGAAAAEAAAANDK9///////AAAAAAAAAACpnempANcHgAAAAAAA"
+			"AAAAox/rtAAAAABwTQvXogEAAKed76kA2AeAAAAAAAAAAABjL+e3AD0FgDBNC9eiAQAApZ3tqQDZ"
+			"B4BTbWFsbCBGb250cwAAAAAAAAAAAAAAAACjneOpANoHgAAAAAAAAAAAox/ntwAAAADwSQvXogEA"
+			"AKGd4akA2weABgAAABAAAAAgyff//////wAAAAAAAAAAv53nqQDcB4BTbWFsbCBGb250cwAAAAAA"
+			"AAAAAAAAAAC9neWpAN0HgAYAAAAQAAAAIHj3//////8AAAAAAAAAALud+6kA3geATVMgU2FucyBT"
+			"ZXJpZgAFgABTC9eiAQAAuZ35qQDfB4AGAAAAEAAAADB99///////AAAAAAAAAAC3nf+pAOAHgE1T"
+			"IFNhbnMgU2VyaWYAAADQgJjRogEAALWd/akA4QeAAAAAAAAAAABjL+u0AEMFgDBKC9eiAQAAs53z"
+			"qW/iB4BNUyBTYW5zIFNlcmlmAAAAAAAAAAAAAACxnfGpAOMHgAYAAAAQAAAA8MT3//////8AAAAA"
+			"AAAAAI+d96kA5AeABgAAABAAAABQmvf//////wAAAAAAAAAAjZ31qQDlB4AGAAAAEAAAADCr9///"
+			"////AAAAAAAAAACLncupAOYHgE1TIFNhbnMgU2VyaWYAdHNcU2l0a2FWRomdyakA5weABgAAABAA"
+			"AABgkPf//////wAAAAAAAAAAh53PqQDoB4BTbWFsbCBGb250cwAAAAAAAA=="
 		)
 	)
 	(sheet
 		(at 152.4 73.66)
 		(size 12.7 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1275,103 +1297,103 @@
 		)
 		(pin "M2" output
 			(at 152.4 90.17 180)
+			(uuid "d3fb9ebd-a978-499c-a8a8-5a5d5545e0d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3fb9ebd-a978-499c-a8a8-5a5d5545e0d7")
 		)
 		(pin "M1" output
 			(at 152.4 76.2 180)
+			(uuid "d3812b2c-3aa0-42cb-8865-e7d947173165")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3812b2c-3aa0-42cb-8865-e7d947173165")
 		)
 		(pin "M1 S0" input
 			(at 152.4 78.74 180)
+			(uuid "d605dfcc-42b6-4b77-982f-713c83f5aa98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d605dfcc-42b6-4b77-982f-713c83f5aa98")
 		)
 		(pin "M1 S1" input
 			(at 152.4 81.28 180)
+			(uuid "aa17ac59-863f-412c-82f3-9ef2b15e0dc8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aa17ac59-863f-412c-82f3-9ef2b15e0dc8")
 		)
 		(pin "M1 S3" input
 			(at 152.4 86.36 180)
+			(uuid "4d563b50-a108-4d12-93f3-1e66a00825b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4d563b50-a108-4d12-93f3-1e66a00825b1")
 		)
 		(pin "M1 S2" input
 			(at 152.4 83.82 180)
+			(uuid "043c924f-90fe-4680-bb0c-781d63431df0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "043c924f-90fe-4680-bb0c-781d63431df0")
 		)
 		(pin "M2 S0" input
 			(at 152.4 92.71 180)
+			(uuid "44f678a3-da0e-4843-bd9a-74c2f5fc7ce8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "44f678a3-da0e-4843-bd9a-74c2f5fc7ce8")
 		)
 		(pin "M2 S1" input
 			(at 152.4 95.25 180)
+			(uuid "d5c28928-aa89-4678-9ec9-6e0571f56cb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5c28928-aa89-4678-9ec9-6e0571f56cb7")
 		)
 		(pin "M2 S2" input
 			(at 152.4 97.79 180)
+			(uuid "f724f7a5-16e5-49d5-975c-34ba7805ba8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f724f7a5-16e5-49d5-975c-34ba7805ba8d")
 		)
 		(pin "M2 S3" input
 			(at 152.4 100.33 180)
+			(uuid "80b5ff40-d70d-47b1-96eb-9dc0767ac4d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80b5ff40-d70d-47b1-96eb-9dc0767ac4d2")
 		)
 		(instances
 			(project "l1"
@@ -1384,6 +1406,10 @@
 	(sheet
 		(at 115.57 73.66)
 		(size 12.7 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1422,6 +1448,10 @@
 	(sheet
 		(at 132.08 73.66)
 		(size 12.7 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1451,103 +1481,103 @@
 		)
 		(pin "M1 S0" output
 			(at 144.78 78.74 0)
+			(uuid "551df64f-4e54-4987-9e00-f966837a5c94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "551df64f-4e54-4987-9e00-f966837a5c94")
 		)
 		(pin "M1 S1" output
 			(at 144.78 81.28 0)
+			(uuid "a66882cd-5f36-4007-9fdc-f541f7508751")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a66882cd-5f36-4007-9fdc-f541f7508751")
 		)
 		(pin "M2 S1" output
 			(at 144.78 95.25 0)
+			(uuid "666c1402-b27f-491d-9489-b92d24864504")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "666c1402-b27f-491d-9489-b92d24864504")
 		)
 		(pin "M2" input
 			(at 144.78 90.17 0)
+			(uuid "072fd789-c1e4-4647-ac97-bcfb44207950")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "072fd789-c1e4-4647-ac97-bcfb44207950")
 		)
 		(pin "M1 S2" output
 			(at 144.78 83.82 0)
+			(uuid "c30cbbcb-81d1-4f82-b12e-46888fe39498")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c30cbbcb-81d1-4f82-b12e-46888fe39498")
 		)
 		(pin "M2 S2" output
 			(at 144.78 97.79 0)
+			(uuid "1062036a-d0ce-4eca-95a1-0fa11f608941")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1062036a-d0ce-4eca-95a1-0fa11f608941")
 		)
 		(pin "M2 S0" output
 			(at 144.78 92.71 0)
+			(uuid "eff083a5-e2f7-4703-841b-a28dd1b489b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eff083a5-e2f7-4703-841b-a28dd1b489b4")
 		)
 		(pin "M1 S3" output
 			(at 144.78 86.36 0)
+			(uuid "319de8df-eb8f-46fb-a69f-46274815c31f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "319de8df-eb8f-46fb-a69f-46274815c31f")
 		)
 		(pin "M1" input
 			(at 144.78 76.2 0)
+			(uuid "e13aa897-7cf9-4ab2-8642-5846778196dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e13aa897-7cf9-4ab2-8642-5846778196dc")
 		)
 		(pin "M2 S3" output
 			(at 144.78 100.33 0)
+			(uuid "ad332cac-b03f-4d35-9aed-f4d886a6897c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ad332cac-b03f-4d35-9aed-f4d886a6897c")
 		)
 		(instances
 			(project "l1"

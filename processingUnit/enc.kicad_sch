@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm"
+		(property "Footprint" "Library:CSTCE8M00G52-R0"
 			(at 46.99 91.44 0)
 			(effects
 				(font
