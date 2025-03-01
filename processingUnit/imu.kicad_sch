@@ -5254,6 +5254,10 @@
 		(uuid "11871217-94f3-49a2-aa1b-6aeba373841a")
 	)
 	(no_connect
+		(at 55.88 135.89)
+		(uuid "12afd60b-6643-428b-a736-c65efb25a5d3")
+	)
+	(no_connect
 		(at 96.52 130.81)
 		(uuid "1f5d8460-9009-4a2e-9b16-3b097d3adc05")
 	)
@@ -5268,10 +5272,6 @@
 	(no_connect
 		(at 96.52 120.65)
 		(uuid "2cba2487-7b41-4816-987b-de410ef6547e")
-	)
-	(no_connect
-		(at 55.88 118.11)
-		(uuid "33dbddf0-4abd-4b90-a314-67d91d770c20")
 	)
 	(no_connect
 		(at 96.52 118.11)
@@ -5290,12 +5290,12 @@
 		(uuid "72a89ede-2c8c-4226-9b34-63bde309f277")
 	)
 	(no_connect
-		(at 55.88 120.65)
-		(uuid "8f36cf0a-25e0-4fbd-9f82-542edf89d941")
+		(at 55.88 123.19)
+		(uuid "72b644cd-13df-433b-9413-2ef3f7eac99e")
 	)
 	(no_connect
-		(at 55.88 138.43)
-		(uuid "8f3cb551-9806-4495-bf9a-e27fd5c3f503")
+		(at 55.88 128.27)
+		(uuid "8b72ba64-df9b-4a04-b7c4-e00ca4b6c368")
 	)
 	(no_connect
 		(at 66.04 86.36)
@@ -5318,12 +5318,20 @@
 		(uuid "b795ab4e-efea-4b5d-9694-e6725c51dff5")
 	)
 	(no_connect
-		(at 55.88 135.89)
-		(uuid "c414d04a-8157-4142-8fe3-1203aacbd85e")
+		(at 55.88 125.73)
+		(uuid "bad7c772-e442-4103-bc87-a9a0fddd3a11")
+	)
+	(no_connect
+		(at 55.88 130.81)
+		(uuid "bddf3cde-3819-481c-b13e-694d96af46c8")
 	)
 	(no_connect
 		(at 96.52 133.35)
 		(uuid "ce0d9a9a-d2d3-4e5b-ac43-a1db4195f890")
+	)
+	(no_connect
+		(at 55.88 138.43)
+		(uuid "f3c2fb3f-2b65-44b1-ba6a-4ef632fc53f4")
 	)
 	(no_connect
 		(at 55.88 133.35)
@@ -5559,16 +5567,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 130.81) (xy 55.88 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d03388-a4b8-4def-b6f4-a36bca9f9b65")
-	)
-	(wire
-		(pts
 			(xy 73.66 53.34) (xy 73.66 55.88)
 		)
 		(stroke
@@ -5739,6 +5737,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 118.11) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5703bc70-7461-4b59-95d4-9ae8842c9ea0")
+	)
+	(wire
+		(pts
 			(xy 109.22 43.18) (xy 106.68 43.18)
 		)
 		(stroke
@@ -5829,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 128.27) (xy 55.88 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3a3fea-26f6-4e6d-931f-e000c054d1a7")
-	)
-	(wire
-		(pts
 			(xy 124.46 125.73) (xy 124.46 128.27)
 		)
 		(stroke
@@ -5866,16 +5864,6 @@
 			(type default)
 		)
 		(uuid "701ac7bf-4bb7-44a1-84a9-13128c5f994e")
-	)
-	(wire
-		(pts
-			(xy 38.1 123.19) (xy 55.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79bf2e58-7400-4ae7-b07f-b0729c5b5700")
 	)
 	(wire
 		(pts
@@ -5956,16 +5944,6 @@
 			(type default)
 		)
 		(uuid "8696410c-b2ab-4433-a2b5-c011eee3c7e1")
-	)
-	(wire
-		(pts
-			(xy 38.1 125.73) (xy 55.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8777ac51-41d0-4fe6-9588-b69be608ad49")
 	)
 	(wire
 		(pts
@@ -6469,6 +6447,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd26e5e-447c-43ae-986c-33d2bc399be8")
+	)
+	(wire
+		(pts
 			(xy 106.68 52.07) (xy 109.22 52.07)
 		)
 		(stroke
@@ -6857,49 +6845,27 @@
 		)
 		(uuid "feee1ea7-58ab-4428-bd72-cbad98a5a972")
 	)
-	(hierarchical_label "TNSY MOSI"
-		(shape input)
-		(at 38.1 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2abaa753-4ccd-4dca-aae7-89b6c319860e")
-	)
-	(hierarchical_label "TNSY SCK"
-		(shape input)
-		(at 38.1 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4348ecad-1ab1-4fa5-b605-c6b8e715f25b")
-	)
-	(hierarchical_label "TNSY MISO"
+	(hierarchical_label "IMU TX"
 		(shape output)
-		(at 38.1 128.27 180)
+		(at 38.1 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "af31b365-0efa-4c84-9989-cfc3908eaffe")
+		(uuid "2b68894f-15da-4831-9fe7-f03e1481cd7c")
 	)
-	(hierarchical_label "IMU STM NSS"
+	(hierarchical_label "IMU RX"
 		(shape input)
-		(at 38.1 123.19 180)
+		(at 38.1 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c8d5290b-3c1b-4572-a601-e613b126e8be")
+		(uuid "e4702b6f-ece4-49f0-84d0-8e3d0444f2c0")
 	)
 	(symbol
 		(lib_id "Device:C")

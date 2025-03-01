@@ -2508,8 +2508,16 @@
 		(uuid "df780f71-360a-4fe8-8878-908e50df1647")
 	)
 	(no_connect
+		(at 39.37 102.87)
+		(uuid "07e79746-32e5-4371-a832-85c743bd9298")
+	)
+	(no_connect
 		(at 81.28 180.34)
 		(uuid "7959106f-e5c4-41ca-aa0b-38a2f358a028")
+	)
+	(no_connect
+		(at 39.37 95.25)
+		(uuid "eb2add48-70f0-4c56-aeb0-2caf3265b26a")
 	)
 	(no_connect
 		(at 44.45 180.34)
@@ -2524,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "09331a3d-7777-429d-a024-b91083cdbf13")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15813260-eddf-4f7f-bb3f-2e55df3ab544")
 	)
 	(wire
 		(pts
@@ -2567,16 +2585,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 49.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb59b01-351e-471a-9080-71d14d5a8dd8")
-	)
-	(wire
-		(pts
 			(xy 93.98 151.13) (xy 91.44 151.13)
 		)
 		(stroke
@@ -2584,6 +2592,16 @@
 			(type default)
 		)
 		(uuid "2cf9536f-2fe8-4b77-bbdc-ae481d0e3400")
+	)
+	(wire
+		(pts
+			(xy 39.37 100.33) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33842be4-4881-4d8e-bfed-7ff858e6e008")
 	)
 	(wire
 		(pts
@@ -2684,16 +2702,6 @@
 			(type default)
 		)
 		(uuid "5f39d551-1183-4807-aab4-6f1021b4220f")
-	)
-	(wire
-		(pts
-			(xy 39.37 100.33) (xy 49.53 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66acaf26-6e85-4f44-abab-435fd32b8657")
 	)
 	(wire
 		(pts
@@ -2874,16 +2882,6 @@
 			(type default)
 		)
 		(uuid "ac81ba44-35cd-4894-8edd-163b9f2c24cd")
-	)
-	(wire
-		(pts
-			(xy 39.37 95.25) (xy 49.53 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac930d14-77dd-4a69-9444-579934034f4d")
 	)
 	(wire
 		(pts
@@ -3107,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 97.79) (xy 49.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f41f6538-fc48-4947-8032-7c5290fac824")
-	)
-	(wire
-		(pts
 			(xy 38.1 66.04) (xy 45.72 66.04)
 		)
 		(stroke
@@ -3158,28 +3146,6 @@
 		(uuid "095c1ad6-ad5c-4989-a39f-bf312c6631c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.9245 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOF RX"
-		(shape bidirectional)
-		(at 49.53 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16acbd25-ac6c-4309-97a4-dba1463d1df8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4603 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,6 +3221,28 @@
 			)
 		)
 	)
+	(global_label "L3 TX"
+		(shape bidirectional)
+		(at 49.53 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81370d82-b09a-4da4-ac2b-27c42de13fd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.0088 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC2"
 		(shape bidirectional)
 		(at 83.82 177.8 0)
@@ -3321,50 +3309,6 @@
 			)
 		)
 	)
-	(global_label "CAM TX"
-		(shape bidirectional)
-		(at 49.53 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c819fc3-3e9b-43f8-adc1-bd80b8e47be0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2332 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAM RX"
-		(shape bidirectional)
-		(at 49.53 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4e9e106-b3dd-48d0-9fbb-70215cc61bdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.3647 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU RST"
 		(shape bidirectional)
 		(at 93.98 151.13 0)
@@ -3409,7 +3353,7 @@
 			)
 		)
 	)
-	(global_label "TOF TX"
+	(global_label "L3 RX"
 		(shape bidirectional)
 		(at 49.53 100.33 0)
 		(fields_autoplaced yes)
@@ -3419,9 +3363,9 @@
 			)
 			(justify left)
 		)
-		(uuid "baf1ba33-d7bc-4f5c-875f-4d1afa235fb5")
+		(uuid "b39a706a-79a9-460a-be78-e32d3fb3be4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1579 100.33 0)
+			(at 59.3112 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
