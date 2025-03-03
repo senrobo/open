@@ -1393,16 +1393,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 54.5467) (xy 127 54.5467)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c0016a-f916-4074-b03a-74e827999495")
-	)
-	(wire
-		(pts
 			(xy 191.77 49.53) (xy 189.23 49.53)
 		)
 		(stroke
@@ -1510,16 +1500,6 @@
 			(type default)
 		)
 		(uuid "6f351505-5116-4b1e-96a7-8213bd5bf3e4")
-	)
-	(wire
-		(pts
-			(xy 127 54.5467) (xy 127 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4834f7-8541-4333-b468-228d7560ec70")
 	)
 	(wire
 		(pts
@@ -2180,16 +2160,6 @@
 			(type default)
 		)
 		(uuid "f578421e-f046-4a63-87e4-766249f09d00")
-	)
-	(wire
-		(pts
-			(xy 50.8 52.07) (xy 127 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68066fe-4a33-4635-8ff4-e312b19c428f")
 	)
 	(wire
 		(pts
@@ -4612,69 +4582,6 @@
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 45.72)
-		(size 15.24 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "65597bc7-5aaa-4f27-9286-e75eee7edae8")
-		(property "Sheetname" "IMU"
-			(at 127 45.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "imu.kicad_sch"
-			(at 127 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "IMU TX" output
-			(at 127 54.61 180)
-			(uuid "57d132af-e41a-4f5e-b24f-9768f4eba582")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU RX" input
-			(at 127 52.07 180)
-			(uuid "a91cb312-113f-4d0c-9cb0-25fba1572aa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "l3"
-				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8"
-					(page "4")
 				)
 			)
 		)
