@@ -5634,26 +5634,6 @@
 		)
 		(uuid "ff54ac43-7fd4-4487-8633-d8a715570a55")
 	)
-	(label "L3 TX"
-		(at 266.7 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "014949be-c2de-4b95-be6f-d3f46dbf63cf")
-	)
-	(label "ESP2 RX"
-		(at 265.43 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05f11cd9-a9db-405d-9d92-687c6b26ad1b")
-	)
 	(label "TOF SDA"
 		(at 214.63 105.41 0)
 		(effects
@@ -5723,16 +5703,6 @@
 			(justify left bottom)
 		)
 		(uuid "2812ff59-bc17-4535-a0cb-a53a1eff4e8f")
-	)
-	(label "L3 RX"
-		(at 266.7 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29811a89-6165-47c0-a66f-158457052a4f")
 	)
 	(label "L3 RX"
 		(at 53.34 54.61 180)
@@ -5824,6 +5794,16 @@
 		)
 		(uuid "55251e10-2cc9-4423-aa79-2402a14705ec")
 	)
+	(label "L3 RX"
+		(at 265.43 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eac25d6-9413-4fbb-a5e1-16c95cc89d9f")
+	)
 	(label "IMU CS"
 		(at 60.96 133.35 0)
 		(effects
@@ -5874,6 +5854,16 @@
 		)
 		(uuid "6e0d0208-1d3b-4914-85c3-e0f60fac58c5")
 	)
+	(label "ESP2 TX"
+		(at 266.7 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0a4df4-652a-472e-935c-300ab13a40ba")
+	)
 	(label "IMU RST"
 		(at 321.31 64.77 180)
 		(effects
@@ -5914,16 +5904,6 @@
 		)
 		(uuid "7aacbb60-781f-4ad5-b9b0-b49351eadf03")
 	)
-	(label "ESP2 TX"
-		(at 265.43 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ba1517d-4c46-4393-9255-fd07e6db91cb")
-	)
 	(label "CAM RX"
 		(at 30.48 205.74 0)
 		(effects
@@ -5963,6 +5943,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a51ad1b-a184-44c9-8bb0-ed100d799c39")
+	)
+	(label "L3 TX"
+		(at 265.43 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fa1aca4-09a3-4345-a59d-f2bb1025c6f0")
 	)
 	(label "TOF SDA"
 		(at 246.38 105.41 0)
@@ -6143,6 +6133,16 @@
 			(justify right bottom)
 		)
 		(uuid "df4e3aa7-266e-4233-8085-995d796d78a7")
+	)
+	(label "ESP2 RX"
+		(at 266.7 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb8ad181-1b5d-4367-848a-57ca2c4406a1")
 	)
 	(label "CAM RX"
 		(at 321.31 52.07 180)
@@ -6408,6 +6408,7 @@
 		)
 		(pin "1"
 			(uuid "21987263-48fa-47dc-a4c7-fb6d5ff9ecb9")
+			(alternate "TX1")
 		)
 		(pin "19"
 			(uuid "87e6d7a2-a51b-44e0-988b-2b8c93a79a25")
@@ -6443,6 +6444,7 @@
 		)
 		(pin "0"
 			(uuid "47803245-f9b9-4c4a-a44c-4dacc398bf73")
+			(alternate "RX1")
 		)
 		(pin "5"
 			(uuid "334049cf-e71f-4eea-89df-43b838e63c19")
