@@ -513,7 +513,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 600,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -676,11 +676,15 @@
     ],
     [
       "e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63",
-      "Teensy and Bluetooth"
+      "Teensy"
     ],
     [
       "6fd2fedf-389d-40a4-a7bf-c3c1142ed045",
       "Motor Driver"
+    ],
+    [
+      "bc00cc40-cc94-40ff-b3e6-3e89fb25168b",
+      "Motor Connector"
     ]
   ],
   "text_variables": {}
