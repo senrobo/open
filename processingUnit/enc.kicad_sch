@@ -6954,6 +6954,7 @@
 		)
 		(pin "21"
 			(uuid "7974c044-ae6a-4e86-92d3-e07af86a7050")
+			(alternate "USART3_TX")
 		)
 		(pin "12"
 			(uuid "ad32961d-7568-443c-8760-9e4b1edc50d9")
@@ -6969,6 +6970,7 @@
 		)
 		(pin "22"
 			(uuid "df4d35e2-78a2-4b98-b408-82993720e10e")
+			(alternate "USART3_RX")
 		)
 		(pin "4"
 			(uuid "ce59e956-5276-4787-98a9-57c5de3b7fc0")
