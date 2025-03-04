@@ -1436,7 +1436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1771dfcb-a021-4283-aa6b-0c4ce03ab7ff")
-		(property "Reference" "U301"
+		(property "Reference" "U201"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -1574,7 +1574,7 @@
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63"
-					(reference "U301")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -1590,7 +1590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d53413d-2a4e-42b9-99b3-c963507f2a6b")
-		(property "Reference" "SW301"
+		(property "Reference" "SW201"
 			(at 182.88 81.28 0)
 			(effects
 				(font
@@ -1645,7 +1645,7 @@
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63"
-					(reference "SW301")
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a98147-d9f4-4d08-8a27-8f1d2d0cd0b6")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0201"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -1713,7 +1713,7 @@
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63"
-					(reference "#PWR0301")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f1a5cce-781f-48f0-ab13-f2a6dab2a582")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0203"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -1779,7 +1779,7 @@
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63"
-					(reference "#PWR0303")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -1795,7 +1795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abeb398e-d5ea-455b-ad38-9e91632118aa")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0202"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -1846,7 +1846,7 @@
 		(instances
 			(project "l3"
 				(path "/1b1408da-cc6a-469f-a506-e797247b3ac8/e2d1e0a8-e0e6-4658-bfde-b894b5fe5a63"
-					(reference "#PWR0302")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
