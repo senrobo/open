@@ -3779,10 +3779,6 @@
 		(uuid "5e91d600-1ffc-4c1d-812a-a73e16e2b8b8")
 	)
 	(no_connect
-		(at 113.03 182.88)
-		(uuid "5f74fb70-8795-496f-9caf-bf440e8c6ca5")
-	)
-	(no_connect
 		(at 38.1 218.44)
 		(uuid "6393df34-3e9f-4b37-add8-15923a8bbb18")
 	)
@@ -3895,16 +3891,8 @@
 		(uuid "b555d42f-e255-44f3-82b0-3675b81a51dd")
 	)
 	(no_connect
-		(at 113.157 189.865)
-		(uuid "b9d28687-615e-4db4-9f5b-5f2953eaf65b")
-	)
-	(no_connect
 		(at 166.37 116.84)
 		(uuid "bbdf46f2-9817-491e-8826-b033a230bc1a")
-	)
-	(no_connect
-		(at 113.411 197.739)
-		(uuid "bd7e2a7f-65e9-4fe8-abe8-51303a8e758e")
 	)
 	(no_connect
 		(at 97.79 113.03)
@@ -3941,10 +3929,6 @@
 	(no_connect
 		(at 101.727 182.626)
 		(uuid "ecd13b1b-0ecd-4a97-b466-63e7781f0a6b")
-	)
-	(no_connect
-		(at 112.903 175.006)
-		(uuid "f1753cad-429f-4479-9196-83e259570f17")
 	)
 	(no_connect
 		(at 226.06 69.85)
@@ -6502,74 +6486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 112.903 172.466 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aa3fe33-28ba-4188-b5af-cfe62cfe26ad")
-		(property "Reference" "H5"
-			(at 116.048 171.831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 116.4849 173.101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 112.903 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 112.903 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 112.903 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "189e7260-ef87-447f-8087-708d66203255")
-		)
-		(instances
-			(project "camUnit-new"
-				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 43.18 43.18 0)
 		(unit 1)
@@ -6830,74 +6746,6 @@
 			(project "camUnit-new"
 				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 113.03 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c96901-1a6e-46db-ad78-9fc2d59ec9db")
-		(property "Reference" "H6"
-			(at 116.074 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 116.5109 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c34bb920-6ba9-4c17-94ea-22512b533d7b")
-		)
-		(instances
-			(project "camUnit-new"
-				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -8537,74 +8385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 113.411 195.199 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ed8db7c-2879-48e6-8b30-79948fc9615f")
-		(property "Reference" "H8"
-			(at 116.1224 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 116.5593 195.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 113.411 195.199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.411 195.199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.411 195.199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e8230c3-18df-4b72-9a66-d26e648cf21a")
-		)
-		(instances
-			(project "camUnit-new"
-				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 151.13 115.57 0)
 		(unit 1)
@@ -8744,74 +8524,6 @@
 			(project "camUnit-new"
 				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 113.157 187.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85b7f85b-3756-4bca-91d5-bbedb8370abc")
-		(property "Reference" "H7"
-			(at 116.1041 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 116.541 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 113.157 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.157 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.157 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72212953-e195-44fc-8975-52a71e02b1de")
-		)
-		(instances
-			(project "camUnit-new"
-				(path "/7108cd5c-44cf-40e6-adfc-f3ad813692d5"
-					(reference "H7")
 					(unit 1)
 				)
 			)
