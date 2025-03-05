@@ -3701,7 +3701,7 @@
 	)
 	(global_label "M3 ENC A"
 		(shape input)
-		(at 115.57 137.16 180)
+		(at 115.57 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3711,7 +3711,7 @@
 		)
 		(uuid "16a75e0d-8fdd-4524-b2e3-363240f1fcee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 137.16 0)
+			(at 103.1506 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3899,7 @@
 	)
 	(global_label "M3 ENC B"
 		(shape input)
-		(at 115.57 134.62 180)
+		(at 115.57 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3909,7 +3909,7 @@
 		)
 		(uuid "c8543bd6-081d-4469-b677-7c38852a7045")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9692 134.62 0)
+			(at 102.9692 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
