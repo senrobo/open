@@ -1043,16 +1043,12 @@
 		(uuid "06f9ecbe-5607-4977-99b4-e4862558fb9e")
 	)
 	(no_connect
-		(at 166.37 121.92)
-		(uuid "2544ca86-1f4a-4df4-88e4-ef78c2e96a85")
+		(at 133.35 121.92)
+		(uuid "1fca876b-8d21-4af7-91a9-46cf888167e9")
 	)
 	(no_connect
 		(at 133.35 93.98)
 		(uuid "3463c03d-1eb5-4355-b5b8-b4a0ed135483")
-	)
-	(no_connect
-		(at 133.35 101.6)
-		(uuid "4007e50b-9929-4898-b3e7-df41662510ca")
 	)
 	(no_connect
 		(at 133.35 119.38)
@@ -1067,6 +1063,10 @@
 		(uuid "932879b8-2cda-4f9a-b8b0-439f44b97b43")
 	)
 	(no_connect
+		(at 133.35 104.14)
+		(uuid "9becad5a-d9a0-4c5e-b60f-0b7d368f1a57")
+	)
+	(no_connect
 		(at 187.96 91.44)
 		(uuid "b8756fe3-01d8-42c9-bde4-31737b661cdd")
 	)
@@ -1079,16 +1079,16 @@
 		(uuid "cec8dbab-2a7b-45fa-98b6-b2dc1cd41b45")
 	)
 	(no_connect
+		(at 133.35 101.6)
+		(uuid "cef8b93a-f97f-42ce-a47e-b1bdbd85e6a8")
+	)
+	(no_connect
 		(at 133.35 99.06)
 		(uuid "d0825d32-90f9-4d33-8cc2-8b6985684d9c")
 	)
 	(no_connect
 		(at 166.37 109.22)
 		(uuid "e9b2ac22-c27d-441c-9692-05c5c651a306")
-	)
-	(no_connect
-		(at 133.35 116.84)
-		(uuid "ee8af89b-4fae-49da-96d6-d02631f94360")
 	)
 	(no_connect
 		(at 166.37 106.68)
@@ -1126,23 +1126,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 133.35 106.68)
+			(xy 124.46 116.84) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3020e1b0-7ca6-4ddf-ba24-d3e18e919e0d")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 124.46 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e4a45c-31bd-44af-a050-dd09c4f9defb")
+		(uuid "36cda8f9-7621-450a-8281-1ffc69b46614")
 	)
 	(wire
 		(pts
@@ -1176,6 +1166,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 121.92) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e24ea24-08d3-406b-b6b6-ebf2993bba82")
+	)
+	(wire
+		(pts
 			(xy 166.37 104.14) (xy 175.26 104.14)
 		)
 		(stroke
@@ -1203,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "b27fd951-8a84-41b3-80f1-b711509e5345")
-	)
-	(wire
-		(pts
-			(xy 133.35 104.14) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d5317f-4a0f-4e23-a71d-eb3d1b5a77c9")
 	)
 	(wire
 		(pts
@@ -1253,6 +1243,16 @@
 			(type default)
 		)
 		(uuid "bc9e609b-0c2d-4894-9716-c7662ee806b9")
+	)
+	(wire
+		(pts
+			(xy 133.35 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80277be-b2dd-4a3e-ab37-05cd65ca30a8")
 	)
 	(wire
 		(pts
@@ -1338,17 +1338,6 @@
 		)
 		(uuid "3052984c-254f-4560-a2f2-75b16446501a")
 	)
-	(hierarchical_label "ESC 2"
-		(shape output)
-		(at 124.46 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a98e98b-a921-449b-bd26-7b3bf2297908")
-	)
 	(hierarchical_label "LIGHT RX"
 		(shape bidirectional)
 		(at 175.26 116.84 0)
@@ -1359,6 +1348,28 @@
 			(justify left)
 		)
 		(uuid "452d847d-39df-4e82-a18a-6fb46bff745d")
+	)
+	(hierarchical_label "KICK SIG"
+		(shape output)
+		(at 124.46 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bc6c837-e1fd-401e-8e4b-8c6464980a71")
+	)
+	(hierarchical_label "ESC 2"
+		(shape output)
+		(at 124.46 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b575731-775b-465c-bc81-44b53b8a69d8")
 	)
 	(hierarchical_label "ENC TX"
 		(shape bidirectional)
@@ -1371,17 +1382,6 @@
 		)
 		(uuid "865d8062-d8eb-4b4a-9390-b97186f28ba3")
 	)
-	(hierarchical_label "FLAG"
-		(shape input)
-		(at 124.46 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a787cf1b-4ac2-43d1-8563-ff06d50c9c7a")
-	)
 	(hierarchical_label "LIGHT TX"
 		(shape bidirectional)
 		(at 175.26 119.38 0)
@@ -1393,28 +1393,6 @@
 		)
 		(uuid "b32208a2-d0b5-46c1-a78e-0dc99f7996c1")
 	)
-	(hierarchical_label "KICK SIG"
-		(shape output)
-		(at 124.46 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9131a42-3f6a-4a4b-977a-8aab0a3de737")
-	)
-	(hierarchical_label "ESC 1"
-		(shape output)
-		(at 124.46 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c41aa585-6585-463d-b0b0-3416110cd385")
-	)
 	(hierarchical_label "GATE RX"
 		(shape bidirectional)
 		(at 175.26 114.3 0)
@@ -1425,6 +1403,28 @@
 			(justify left)
 		)
 		(uuid "cc7547ea-de98-4fe6-8d63-42a37fe7e7a2")
+	)
+	(hierarchical_label "FLAG"
+		(shape input)
+		(at 175.26 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf3567a6-39b3-49b4-8c09-02f0eea3cb89")
+	)
+	(hierarchical_label "ESC 1"
+		(shape output)
+		(at 124.46 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3ca73ed-277f-4d0e-af51-4eba97ce0040")
 	)
 	(symbol
 		(lib_id "vincent:Teensy 4.0")
