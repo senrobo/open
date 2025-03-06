@@ -7,9 +7,10 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
 *.kicad_prl
 *.sch-bak
+**/production/backups/
+
 *~
 _autosave-*
 *.tmp
@@ -29,5 +30,4 @@ fp-info-cache
 *.csv
 
 # macOS stuff
-
 .DS_Store
