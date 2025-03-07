@@ -1148,6 +1148,10 @@
 		(color 0 0 0 0)
 		(uuid "8aad0528-01de-45d0-a62c-1427b2901eae")
 	)
+	(no_connect
+		(at 113.03 109.22)
+		(uuid "4cef397e-071f-4cfd-8b09-bf16f313e50b")
+	)
 	(wire
 		(pts
 			(xy 83.82 105.41) (xy 83.82 110.49)
@@ -1246,7 +1250,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "858929f1-52d6-4a3c-a2bf-60208088c405")
+		(uuid "7caf4856-a6bf-409a-9cb1-4970091ce0a0")
 	)
 	(wire
 		(pts
@@ -1377,16 +1381,6 @@
 			(type default)
 		)
 		(uuid "df0507c2-352f-4d0b-9a48-6af48e43bc7f")
-	)
-	(wire
-		(pts
-			(xy 115.57 109.22) (xy 113.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed05a35a-53ba-42c1-b054-119e19ab6df5")
 	)
 	(wire
 		(pts
@@ -2572,29 +2566,25 @@
 			"AAAAAAAAAAAAAAAySkwqAFkFgAAAAAAAAAAAAwAAAAAAAAAgXY7BRQIAAAEAAAAAAAAAAAAAAAAA"
 			"AAAxSksqAFoFgAAAAAAAAAAACAAAAAAAAADwko7BRQIAAAEAAAAAAAAAAAAAAAAAAAAMSnYqAFsF"
 			"gAAAAAAAAAAACAAAAAAAAAAwoI7BRQIAAAEAAAAAAAAAAAAAAAAAAAALSnUqAFwFgAAAAAAAAAAA"
-			"AwAAAAAAAAAgP47BRQIAAAEAAAAAAAAAAAAAAAAAAAAGSnAqAF0FgEM6Lw=="
-		)
-	)
-	(global_label "GATE RX"
-		(shape bidirectional)
-		(at 115.57 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03b00493-ffd8-4eba-9428-cf5c14d902f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5888 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+			"AwAAAAAAAAAgP47BRQIAAAEAAAAAAAAAAAAAAAAAAAAGSnAqAF0FgEM6LwAAAAAAYtnu6AAJCIBT"
+			"dGFuZGFyZAAAAAAAAAAAAAAAAAAAAABg2eDoAAoIgAYAAAAQAAAAQPQBAAAAAAAAAAAAAAAAAGbZ"
+			"4ugACwiABgAAABAAAABQ1QEAAAAAAAAAAAAAAAAAZNnk6AAMCIAGAAAAEAAAAPDyAQAAAAAAAAAA"
+			"AAAAAABq2eboAA0IgAYAAAAQAAAAkO4BAAAAAAAAAAAAAAAAAGjZ+OgADgiATVMgU2FucyBTZXJp"
+			"ZgAAAAAAAAAAAAAAbtn66AAPCIAAAAAAAAAAACX+qqoAAAAAYALypigBAABs2fzoABAIgAAAAAAA"
+			"AAAAIvD2YgAAAACABfKmKAEAABLZ/ugAEQiAYATypigBAAC9XquqAAAAACAI8qYoAQAAENnw6AAS"
+			"CIAGAAAAEAAAAJDFAQAAAAAAAAAAAAAAAAAW2fLoABMIgAAAAAAAAAAApd6qqgAAAAAABfKmKAEA"
+			"ABTZ9OgAFAiABgAAABAAAABQtAEAAAAAAAAAAAAAAAAAGtn26AAVCIDOms6xzr3Ov869zrnOus6s"
+			"AAAAAAAAAAAY2YjoABYIgE1TIFNhbnMgU2VyaWYAAAAAAAAAAAAAAB7ZiugAFwiAb2J5xI1lam7D"
+			"qQAAAAAAAAAAAAAAAAAAHNmM6AAYCIAGAAAAEAAAAKDBAQAAAAAAAAAAAAAAAAAC2Y7oABkIgNCe"
+			"0LHRi9GH0L3Ri9C5AAAAAAAAAAAAAADZgOgAGgiABgAAABAAAACA1AEAAAAAAAAAAAAAAAAABtmC"
+			"6AAbCIAAAAAAAAAAAO1OqqoAAAAAoAjypigBAAAE2YToABwIgAYAAAAQAAAAsLkBAAAAAAAAAAAA"
+			"AAAAAArZhugAHQiATVMgU2FucyBTZXJpZgAAAAAAAAAAAAAACNmY6AAeCIBNUyBTYW5zIFNlcmlm"
+			"AAAAAAAAAAAAAAAO2ZroAB8IgE1TIFNhbnMgU2VyaWYAAAAAAAAAAAAAAAzZnOgAIAiA4APypigB"
+			"AAA9fquqAAAAACAG8qYoAQAAMtme6AAhCIAGAAAAEAAAAAC4AQAAAAAAAAAAAAAAAAAw2ZDoACII"
+			"gFN0YW5kYXJkAAAAAAAAAAAAAAAAAAAAADbZkugAIwiATVMgU2FucyBTZXJpZgAAAAAAAAAAAAAA"
+			"NNmU6AAkCIAAAAAAAAAAAJT3rYwAAAAAgATypigBAAA62ZboACUIgE5vcm1hYWxpAAAAAAAAAAAA"
+			"AAAAAAAAADjZqOgAJgiAU3RhbmRhYXJkAAAAAAAAAAAAAAAAAAAAPtmq6AAnCIBOb3Jtw6FsbmUA"
+			"AAAAAAAAAAAAAAAAAAA82azoACgIgE1TIFNhbnMgU2VyaWYAAAAAAAAAAA=="
 		)
 	)
 	(global_label "MCU RST"
@@ -2751,6 +2741,28 @@
 			)
 		)
 	)
+	(global_label "FLAG 2"
+		(shape bidirectional)
+		(at 115.57 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b32336d1-8d8a-49cd-aada-40055f7720dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.3189 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU SWCLK"
 		(shape bidirectional)
 		(at 83.82 102.87 0)
@@ -2764,28 +2776,6 @@
 		(uuid "cd8b2f3a-809b-45e6-b818-102b57f9c6cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.4067 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE TX"
-		(shape bidirectional)
-		(at 115.57 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d10f896f-29fa-46f2-a5fd-3a9aee243676")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2864 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

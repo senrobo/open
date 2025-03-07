@@ -632,14 +632,6 @@
       "Light Ring"
     ],
     [
-      "7eb94f30-d7c3-42f0-a677-4d3b7a4adfd0",
-      "Miscellaneous"
-    ],
-    [
-      "c6498898-e768-4094-8aa6-88261c32205e",
-      "Gate"
-    ],
-    [
       "c12d892e-3e71-42fb-9089-506a5d8b9a04",
       "STM32"
     ],
@@ -650,6 +642,10 @@
     [
       "6da727bb-53e9-4f90-ad87-a0bcbe81e2aa",
       "LED"
+    ],
+    [
+      "7eb94f30-d7c3-42f0-a677-4d3b7a4adfd0",
+      "Miscellaneous"
     ]
   ],
   "text_variables": {}
