@@ -1055,6 +1055,10 @@
 		(uuid "6da4dfdd-b700-48fd-a32a-6d5fec642ae8")
 	)
 	(no_connect
+		(at 166.37 106.68)
+		(uuid "7e466f96-56e0-4455-ac70-074b5825e690")
+	)
+	(no_connect
 		(at 133.35 91.44)
 		(uuid "9099aed1-5255-4dcb-9ea5-fcb9db550051")
 	)
@@ -1087,12 +1091,16 @@
 		(uuid "d0825d32-90f9-4d33-8cc2-8b6985684d9c")
 	)
 	(no_connect
+		(at 166.37 111.76)
+		(uuid "d0845ee0-a3f7-49e9-b716-3628ebc42933")
+	)
+	(no_connect
 		(at 166.37 109.22)
 		(uuid "e9b2ac22-c27d-441c-9692-05c5c651a306")
 	)
 	(no_connect
-		(at 166.37 106.68)
-		(uuid "f087c05d-2483-4fc1-9658-265bff8ad193")
+		(at 166.37 114.3)
+		(uuid "edb17084-d8bc-4464-8e03-1e5de9026a0a")
 	)
 	(wire
 		(pts
@@ -1166,6 +1174,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 106.68) (xy 175.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9f3277-e18e-462a-b94b-2ec12fe1d2de")
+	)
+	(wire
+		(pts
 			(xy 166.37 121.92) (xy 175.26 121.92)
 		)
 		(stroke
@@ -1226,16 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 111.76) (xy 175.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8dda68-92bb-4ce3-a3f4-30ad837d2714")
-	)
-	(wire
-		(pts
 			(xy 133.35 111.76) (xy 124.46 111.76)
 		)
 		(stroke
@@ -1253,16 +1261,6 @@
 			(type default)
 		)
 		(uuid "c80277be-b2dd-4a3e-ab37-05cd65ca30a8")
-	)
-	(wire
-		(pts
-			(xy 166.37 114.3) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9afa23-0e6e-4b69-ba5f-41b0bab6fc58")
 	)
 	(wire
 		(pts
@@ -1315,17 +1313,6 @@
 			(justify right)
 		)
 		(uuid "10c8bc03-501d-422d-aa0c-e5cea9a93996")
-	)
-	(hierarchical_label "GATE TX"
-		(shape bidirectional)
-		(at 175.26 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23902e78-44a0-4d22-9c19-c40333ebb43e")
 	)
 	(hierarchical_label "L3 TX"
 		(shape output)
@@ -1393,17 +1380,6 @@
 		)
 		(uuid "b32208a2-d0b5-46c1-a78e-0dc99f7996c1")
 	)
-	(hierarchical_label "GATE RX"
-		(shape bidirectional)
-		(at 175.26 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc7547ea-de98-4fe6-8d63-42a37fe7e7a2")
-	)
 	(hierarchical_label "FLAG"
 		(shape input)
 		(at 175.26 121.92 0)
@@ -1425,6 +1401,17 @@
 			(justify right)
 		)
 		(uuid "e3ca73ed-277f-4d0e-af51-4eba97ce0040")
+	)
+	(hierarchical_label "FLAG 2"
+		(shape input)
+		(at 175.26 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "feac0ecf-a7f8-4186-a90d-9d21b6d0441b")
 	)
 	(symbol
 		(lib_id "vincent:Teensy 4.0")

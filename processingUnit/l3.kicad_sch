@@ -790,16 +790,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 104.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea7013d-121c-4ad5-be96-a4814bf28545")
-	)
-	(wire
-		(pts
 			(xy 189.23 130.81) (xy 189.23 119.38)
 		)
 		(stroke
@@ -850,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 41.91) (xy 104.14 41.91)
+			(xy 50.8 54.61) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -900,16 +890,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 104.14 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7757b754-200c-4993-b53c-5f47e399dfc4")
-	)
-	(wire
-		(pts
 			(xy 237.49 101.6) (xy 243.84 101.6)
 		)
 		(stroke
@@ -937,6 +917,16 @@
 			(type default)
 		)
 		(uuid "7e8ec423-efb1-4cef-a705-ae51137baaab")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809ec172-0615-40bb-8f45-0cdeeb67751f")
 	)
 	(wire
 		(pts
@@ -1866,7 +1856,7 @@
 			)
 		)
 		(pin "FLAG" output
-			(at 104.14 41.91 180)
+			(at 104.14 54.61 180)
 			(uuid "bf85fdb9-cab4-4aeb-88b0-37b0a40622bd")
 			(effects
 				(font
@@ -1885,16 +1875,6 @@
 				(justify left)
 			)
 		)
-		(pin "GATE RX" bidirectional
-			(at 104.14 57.15 180)
-			(uuid "d7c09cb1-3e9b-408e-b269-f11fcc699912")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LIGHT RX" bidirectional
 			(at 104.14 50.8 180)
 			(uuid "d565aa0b-f104-4797-a139-20909aff75b9")
@@ -1905,9 +1885,9 @@
 				(justify left)
 			)
 		)
-		(pin "GATE TX" bidirectional
-			(at 104.14 54.61 180)
-			(uuid "5e7a217f-848f-4402-a3df-e11884dcd378")
+		(pin "LIGHT TX" bidirectional
+			(at 104.14 48.26 180)
+			(uuid "c061f6a7-f458-49ef-ac72-19c836301adc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,9 +1895,9 @@
 				(justify left)
 			)
 		)
-		(pin "LIGHT TX" bidirectional
-			(at 104.14 48.26 180)
-			(uuid "c061f6a7-f458-49ef-ac72-19c836301adc")
+		(pin "FLAG 2" output
+			(at 104.14 57.15 180)
+			(uuid "492ce3cf-fa23-49c2-8252-4dc6e1243feb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,28 +2474,8 @@
 				(justify right)
 			)
 		)
-		(pin "GATE RX" bidirectional
-			(at 50.8 57.15 0)
-			(uuid "7fe19ed5-9d17-4ba9-a397-7f9f0514e3b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GATE TX" bidirectional
-			(at 50.8 54.61 0)
-			(uuid "1da31f3b-bf64-4ffa-b650-7adc0ccbc693")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "FLAG" input
-			(at 50.8 41.91 0)
+			(at 50.8 54.61 0)
 			(uuid "d0f02a06-c656-42c7-8d7e-418c75a52f04")
 			(effects
 				(font
@@ -2587,6 +2547,16 @@
 		(pin "L3 RX" output
 			(at 50.8 60.96 0)
 			(uuid "6d1cc6e2-830a-4cc2-81f6-d967c11bb0e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLAG 2" input
+			(at 50.8 57.15 0)
+			(uuid "b9ae051a-58a9-4121-98c8-3449eb341340")
 			(effects
 				(font
 					(size 1.27 1.27)

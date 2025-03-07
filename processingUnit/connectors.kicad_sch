@@ -2454,6 +2454,10 @@
 		(uuid "7959106f-e5c4-41ca-aa0b-38a2f358a028")
 	)
 	(no_connect
+		(at 91.44 161.29)
+		(uuid "c2f22148-9c30-4698-93d5-1433ef4c4eb0")
+	)
+	(no_connect
 		(at 44.45 180.34)
 		(uuid "ef502407-7b85-4423-9808-ac7966dccd72")
 	)
@@ -3089,16 +3093,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 161.29) (xy 93.98 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdea4b32-950f-4281-a2b4-da888c16f1b8")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 40.64 58.42)
 		)
 		(stroke
@@ -3261,27 +3255,16 @@
 		)
 		(uuid "3498c64d-9d60-434e-b7e9-f11015968f9b")
 	)
-	(hierarchical_label "GATE TX"
-		(shape bidirectional)
-		(at 93.9303 158.75 0)
+	(hierarchical_label "FLAG 2"
+		(shape output)
+		(at 93.98 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5606d264-bbc5-40b8-adc0-7325799db514")
-	)
-	(hierarchical_label "GATE RX"
-		(shape bidirectional)
-		(at 93.98 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ec9748a-7b4a-4a8c-81cc-0dd63ff84034")
+		(uuid "8250bf8b-ed0d-4d07-958a-f5b88178cc76")
 	)
 	(hierarchical_label "LIGHT TX"
 		(shape bidirectional)
