@@ -2791,16 +2791,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 132.08) (xy 259.08 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf9df79-8fb9-4478-a90f-5dafd3ae0255")
-	)
-	(wire
-		(pts
 			(xy 115.57 134.62) (xy 133.35 134.62)
 		)
 		(stroke
@@ -3048,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "6fa42603-60e3-4556-84c5-04ba3ef15659")
-	)
-	(wire
-		(pts
-			(xy 276.86 129.54) (xy 259.08 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcd7cc4-0bbb-4237-af5c-78b872029054")
 	)
 	(wire
 		(pts
@@ -3787,28 +3767,6 @@
 			)
 		)
 	)
-	(global_label "M1 ENC A"
-		(shape input)
-		(at 276.86 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74f518f8-ad9f-4d7d-9dfe-c387698863c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.2794 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M2 ENC B"
 		(shape input)
 		(at 191.77 142.24 0)
@@ -3822,28 +3780,6 @@
 		(uuid "78dd630d-b904-4a92-a5c0-05c04e093358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.3708 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M1 ENC B"
-		(shape input)
-		(at 276.86 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b10f374c-b6fc-4b14-a657-b6a3fc9bc774")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.4608 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

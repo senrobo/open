@@ -6386,6 +6386,7 @@
 		)
 		(pin "16"
 			(uuid "6387665f-f546-4639-a893-e6261c7743c9")
+			(alternate "RX4")
 		)
 		(pin "3.3V_2"
 			(uuid "211b6cdb-ed91-40c0-8917-8c872eaa78e8")
@@ -6399,6 +6400,7 @@
 		)
 		(pin "17"
 			(uuid "97194651-b7bf-42f7-bcab-7684543dda23")
+			(alternate "TX4")
 		)
 		(pin "23"
 			(uuid "0f759f08-0c73-424a-ab5b-572506c61bda")
@@ -6456,9 +6458,11 @@
 		)
 		(pin "21"
 			(uuid "83fd58cb-6f80-4980-955e-9371cf56de03")
+			(alternate "RX5")
 		)
 		(pin "20"
 			(uuid "b94250c9-2fc1-42f7-9d69-d80498313bf4")
+			(alternate "TX5")
 		)
 		(pin "13"
 			(uuid "164fe9f7-451e-4ae3-9d22-93ed83ef00cb")

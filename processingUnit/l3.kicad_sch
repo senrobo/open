@@ -1825,7 +1825,7 @@
 				(justify left)
 			)
 		)
-		(pin "L3 TX" output
+		(pin "L3 TX" input
 			(at 104.14 63.5 180)
 			(uuid "46682481-9cb8-415b-8968-a4350724f7bf")
 			(effects
@@ -2544,7 +2544,7 @@
 				(justify right)
 			)
 		)
-		(pin "L3 RX" output
+		(pin "L3 RX" input
 			(at 50.8 60.96 0)
 			(uuid "6d1cc6e2-830a-4cc2-81f6-d967c11bb0e9")
 			(effects

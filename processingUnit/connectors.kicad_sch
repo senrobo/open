@@ -3300,7 +3300,7 @@
 		(uuid "ccd19124-6f59-4ad6-8d6f-b6d1e22bed48")
 	)
 	(hierarchical_label "L3 TX"
-		(shape output)
+		(shape input)
 		(at 49.53 107.95 0)
 		(effects
 			(font

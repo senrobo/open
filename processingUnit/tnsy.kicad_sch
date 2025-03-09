@@ -1300,7 +1300,7 @@
 		(uuid "013ce053-a3e1-4fe7-b8d3-3bfca0a09eff")
 	)
 	(hierarchical_label "L3 RX"
-		(shape output)
+		(shape input)
 		(at 124.46 109.22 180)
 		(effects
 			(font
