@@ -3681,7 +3681,7 @@
 	)
 	(global_label "M2 ENC A"
 		(shape input)
-		(at 115.57 129.54 180)
+		(at 115.57 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3691,7 +3691,7 @@
 		)
 		(uuid "0bc825c1-e90e-4a5d-832b-c6373a602612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.1506 129.54 0)
+			(at 102.9692 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3747,7 @@
 	)
 	(global_label "M2 ENC B"
 		(shape input)
-		(at 115.57 132.08 180)
+		(at 115.57 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3757,7 +3757,7 @@
 		)
 		(uuid "7a12ddc9-f16e-46b8-a9fd-59a226ec01d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9692 132.08 0)
+			(at 103.1506 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
