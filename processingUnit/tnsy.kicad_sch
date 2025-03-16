@@ -1051,8 +1051,16 @@
 		(uuid "3463c03d-1eb5-4355-b5b8-b4a0ed135483")
 	)
 	(no_connect
+		(at 133.35 116.84)
+		(uuid "35d7c04f-15b2-437d-aaff-7f922cf47f40")
+	)
+	(no_connect
 		(at 133.35 119.38)
 		(uuid "6da4dfdd-b700-48fd-a32a-6d5fec642ae8")
+	)
+	(no_connect
+		(at 133.35 111.76)
+		(uuid "7b24c5d1-cec4-4ec9-a0a4-72bf204814f8")
 	)
 	(no_connect
 		(at 166.37 106.68)
@@ -1067,20 +1075,16 @@
 		(uuid "932879b8-2cda-4f9a-b8b0-439f44b97b43")
 	)
 	(no_connect
+		(at 133.35 109.22)
+		(uuid "9b91993d-5608-49b3-9f0c-0f5ad75b7136")
+	)
+	(no_connect
 		(at 133.35 104.14)
 		(uuid "9becad5a-d9a0-4c5e-b60f-0b7d368f1a57")
 	)
 	(no_connect
 		(at 187.96 91.44)
 		(uuid "b8756fe3-01d8-42c9-bde4-31737b661cdd")
-	)
-	(no_connect
-		(at 166.37 99.06)
-		(uuid "b99bb779-d059-4c8c-b17b-907ceb3767cb")
-	)
-	(no_connect
-		(at 166.37 96.52)
-		(uuid "cec8dbab-2a7b-45fa-98b6-b2dc1cd41b45")
 	)
 	(no_connect
 		(at 133.35 101.6)
@@ -1091,12 +1095,18 @@
 		(uuid "d0825d32-90f9-4d33-8cc2-8b6985684d9c")
 	)
 	(no_connect
-		(at 166.37 111.76)
-		(uuid "d0845ee0-a3f7-49e9-b716-3628ebc42933")
-	)
-	(no_connect
 		(at 166.37 109.22)
 		(uuid "e9b2ac22-c27d-441c-9692-05c5c651a306")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cf31c5-4c4e-421f-b0ae-2dd7a9b78bd9")
 	)
 	(wire
 		(pts
@@ -1130,33 +1140,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 133.35 116.84)
+			(xy 166.37 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36cda8f9-7621-450a-8281-1ffc69b46614")
-	)
-	(wire
-		(pts
-			(xy 133.35 109.22) (xy 124.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526902a7-4ac5-4677-a152-f2f7fc0fcf41")
-	)
-	(wire
-		(pts
-			(xy 166.37 114.3) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ed91f2-8e33-4551-9fb7-b9e2c0f60a16")
+		(uuid "66dcde54-5aa3-48d5-99ae-66aa9c2ac29e")
 	)
 	(wire
 		(pts
@@ -1167,6 +1157,16 @@
 			(type default)
 		)
 		(uuid "7368c9d5-5f82-4969-ba51-1559ea797b10")
+	)
+	(wire
+		(pts
+			(xy 166.37 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845f8145-9137-4ce9-9f9f-cf23d08f7b7b")
 	)
 	(wire
 		(pts
@@ -1187,6 +1187,16 @@
 			(type default)
 		)
 		(uuid "8e24ea24-08d3-406b-b6b6-ebf2993bba82")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fd124a-82c5-445e-93a4-ad347a6b12f0")
 	)
 	(wire
 		(pts
@@ -1240,16 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 124.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9e609b-0c2d-4894-9716-c7662ee806b9")
-	)
-	(wire
-		(pts
 			(xy 133.35 106.68) (xy 124.46 106.68)
 		)
 		(stroke
@@ -1299,27 +1299,16 @@
 		)
 		(uuid "013ce053-a3e1-4fe7-b8d3-3bfca0a09eff")
 	)
-	(hierarchical_label "L3 RX"
-		(shape input)
-		(at 124.46 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10c8bc03-501d-422d-aa0c-e5cea9a93996")
-	)
-	(hierarchical_label "L3 TX"
+	(hierarchical_label "KICK SIG"
 		(shape output)
-		(at 124.46 111.76 180)
+		(at 175.26 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3052984c-254f-4560-a2f2-75b16446501a")
+		(uuid "24c3c330-c086-4201-8bc7-4573ee390400")
 	)
 	(hierarchical_label "LIGHT RX"
 		(shape bidirectional)
@@ -1332,16 +1321,16 @@
 		)
 		(uuid "452d847d-39df-4e82-a18a-6fb46bff745d")
 	)
-	(hierarchical_label "KICK SIG"
-		(shape output)
-		(at 124.46 116.84 180)
+	(hierarchical_label "L3 RX"
+		(shape input)
+		(at 175.26 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6bc6c837-e1fd-401e-8e4b-8c6464980a71")
+		(uuid "5e9b4b39-75d9-4c19-bce3-25575ad32aef")
 	)
 	(hierarchical_label "ESC 2"
 		(shape output)
@@ -1364,6 +1353,28 @@
 			(justify left)
 		)
 		(uuid "865d8062-d8eb-4b4a-9390-b97186f28ba3")
+	)
+	(hierarchical_label "L3 TX"
+		(shape output)
+		(at 175.26 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f36d6ab-9e01-444d-914a-60af9b12b79f")
+	)
+	(hierarchical_label "FLAG 2"
+		(shape input)
+		(at 175.26 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a81cbf93-e492-4677-b61a-4c7725088318")
 	)
 	(hierarchical_label "LIGHT TX"
 		(shape bidirectional)
@@ -1397,17 +1408,6 @@
 			(justify right)
 		)
 		(uuid "e3ca73ed-277f-4d0e-af51-4eba97ce0040")
-	)
-	(hierarchical_label "FLAG 2"
-		(shape input)
-		(at 175.26 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8e353f9-d77a-4d72-b7fc-bf4627c1aeaf")
 	)
 	(symbol
 		(lib_id "vincent:Teensy 4.0")
@@ -1521,6 +1521,7 @@
 		)
 		(pin "16"
 			(uuid "bc2ee79b-27e7-42d3-acf0-3b2a84121005")
+			(alternate "RX4")
 		)
 		(pin "17"
 			(uuid "902bb10b-d902-49a8-a6ab-52c66f0fa996")
