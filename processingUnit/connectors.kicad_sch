@@ -5964,7 +5964,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 86.36 153.67 180)
+		(at 86.36 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5972,7 +5973,7 @@
 		(dnp no)
 		(uuid "ae37294f-1f4c-48eb-b364-61735fe21019")
 		(property "Reference" "J106"
-			(at 86.36 170.18 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5981,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 86.36 167.64 0)
+			(at 86.36 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5989,7 @@
 			)
 		)
 		(property "Footprint" "Library:526101071"
-			(at 86.36 153.67 0)
+			(at 86.36 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 153.67 0)
+			(at 86.36 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6007,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 153.67 0)
+			(at 86.36 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
